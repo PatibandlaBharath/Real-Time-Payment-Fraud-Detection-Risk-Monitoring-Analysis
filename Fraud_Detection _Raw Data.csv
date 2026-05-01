@@ -1,0 +1,501 @@
+Transaction_ID,Date,Customer_ID,Amount,Payment_Method,Merchant_Category,Location,Device_Type,Bank_Name,Previous_Fraud_Flag,Risk_Score,Fraud_Label
+T100000,2022-02-27,C7161,18733.26,UPI,Travel,Mumbai,Mobile,SBI,0,0.713,0
+T100001,2023-04-09,C6205,47536.21,UPI,Retail,Mumbai,Desktop,ICICI Bank,0,0.817,0
+T100002,2022-11-30,C5784,36602.38,UPI,Retail,Mumbai,Mobile,Kotak Mahindra,0,0.182,0
+T100003,2022-03-23,C1615,29936.94,Wallet,Travel,Bangalore,Tablet,HDFC Bank,0,0.371,0
+T100004,2023-01-17,C2119,7809.37,Net Banking,Food,Hyderabad,Desktop,SBI,1,0.902,0
+T100005,2022-11-25,C1812,7808.17,Wallet,Food,Delhi,Mobile,SBI,0,0.807,0
+T100006,2020-09-25,C5577,2913.6,Net Banking,Entertainment,Chennai,Desktop,HDFC Bank,1,0.985,0
+T100007,2021-08-08,C4702,43310.15,Wallet,Entertainment,Delhi,Desktop,Kotak Mahindra,0,0.754,0
+T100008,2024-10-13,C5146,30059.74,Wallet,E-commerce,Delhi,Desktop,Axis Bank,1,0.393,0
+T100009,2022-03-14,C7707,35406.55,Debit Card,Retail,Hyderabad,Mobile,HDFC Bank,0,0.591,0
+T100010,2022-10-06,C5375,1039.02,Wallet,Entertainment,Hyderabad,Tablet,Kotak Mahindra,0,0.661,1
+T100011,2020-12-10,C6378,48495.79,Credit Card,Food,Hyderabad,Tablet,HDFC Bank,1,0.078,0
+T100012,2023-07-25,C9983,41623.81,Debit Card,Travel,Mumbai,Mobile,HDFC Bank,0,0.544,0
+T100013,2024-12-02,C2090,10624.83,Wallet,Food,Bangalore,Desktop,ICICI Bank,1,0.709,0
+T100014,2023-02-08,C7532,9099.43,UPI,Retail,Mumbai,Mobile,Kotak Mahindra,0,0.167,0
+T100015,2021-10-31,C9680,9178.39,Credit Card,Food,Bangalore,Mobile,Axis Bank,0,0.781,0
+T100016,2024-02-17,C8188,15219.07,Credit Card,E-commerce,Bangalore,Mobile,ICICI Bank,0,0.584,0
+T100017,2023-11-27,C8643,26242.57,Credit Card,Retail,Delhi,Desktop,HDFC Bank,0,0.952,1
+T100018,2022-10-02,C9079,21602.93,Debit Card,Travel,Delhi,Mobile,HDFC Bank,0,0.042,1
+T100019,2021-10-02,C9906,14568.54,Wallet,E-commerce,Bangalore,Desktop,HDFC Bank,0,0.265,0
+T100020,2025-10-31,C8654,30596.53,Wallet,Retail,Bangalore,Mobile,Kotak Mahindra,0,0.602,0
+T100021,2021-12-29,C2044,6983.3,UPI,Travel,Mumbai,Tablet,Kotak Mahindra,0,0.297,0
+T100022,2024-04-18,C3473,14614.31,UPI,E-commerce,Mumbai,Mobile,ICICI Bank,0,0.714,1
+T100023,2024-08-26,C7337,18324.43,Credit Card,E-commerce,Delhi,Mobile,Axis Bank,0,0.759,1
+T100024,2023-12-05,C7307,22808.94,UPI,Retail,Hyderabad,Tablet,ICICI Bank,0,0.103,0
+T100025,2021-03-17,C1561,39260.95,Debit Card,Entertainment,Bangalore,Desktop,SBI,0,0.514,0
+T100026,2021-09-21,C6380,9991.69,Wallet,E-commerce,Mumbai,Desktop,HDFC Bank,0,0.509,0
+T100027,2024-10-24,C3404,25716.58,Credit Card,E-commerce,Delhi,Mobile,HDFC Bank,0,0.369,0
+T100028,2022-05-16,C4648,29624.8,UPI,Travel,Mumbai,Tablet,HDFC Bank,0,0.933,0
+T100029,2022-03-16,C5492,2332.06,Debit Card,Food,Bangalore,Desktop,ICICI Bank,0,0.828,0
+T100030,2024-08-07,C3192,30381.17,Debit Card,Retail,Bangalore,Mobile,ICICI Bank,1,0.697,0
+T100031,2020-05-02,C9364,8534.5,UPI,Retail,Chennai,Tablet,HDFC Bank,0,0.714,0
+T100032,2023-03-26,C3840,3261.93,Wallet,Entertainment,Hyderabad,Desktop,ICICI Bank,0,0.462,0
+T100033,2021-08-18,C7394,47444.79,UPI,Entertainment,Chennai,Desktop,Kotak Mahindra,0,0.921,1
+T100034,2024-09-09,C9946,48281.95,Credit Card,Retail,Delhi,Tablet,Kotak Mahindra,0,0.695,0
+T100035,2021-06-19,C3353,40421.78,UPI,Entertainment,Mumbai,Tablet,ICICI Bank,0,0.729,0
+T100036,2023-05-25,C4216,15237.64,Debit Card,Travel,Delhi,Tablet,HDFC Bank,0,0.862,0
+T100037,2023-10-22,C3133,4892.63,UPI,Retail,Bangalore,Tablet,ICICI Bank,0,0.274,0
+T100038,2024-11-23,C5599,34214.81,Wallet,Entertainment,Chennai,Mobile,ICICI Bank,0,0.807,0
+T100039,2021-11-22,C7377,22013.22,Net Banking,Retail,Chennai,Tablet,ICICI Bank,1,0.195,0
+T100040,2022-03-02,C1286,6110.69,UPI,Food,Chennai,Desktop,SBI,1,0.345,0
+T100041,2021-09-08,C3772,24763.89,Wallet,E-commerce,Delhi,Desktop,Kotak Mahindra,0,0.336,0
+T100042,2024-06-14,C9823,1729.08,Wallet,Retail,Bangalore,Mobile,Axis Bank,0,0.979,0
+T100043,2021-08-11,C5441,45466.93,Debit Card,E-commerce,Mumbai,Desktop,Axis Bank,0,0.857,0
+T100044,2022-06-11,C7349,12946.41,Wallet,Entertainment,Mumbai,Desktop,SBI,0,0.701,0
+T100045,2022-01-18,C2033,33129.49,Wallet,E-commerce,Delhi,Tablet,ICICI Bank,0,0.727,0
+T100046,2020-08-19,C9205,15592.44,Wallet,Retail,Chennai,Desktop,SBI,0,0.562,0
+T100047,2021-01-21,C9659,26008.2,Wallet,Food,Hyderabad,Mobile,SBI,0,0.947,0
+T100048,2021-05-20,C6092,27340.05,Credit Card,Entertainment,Delhi,Tablet,HDFC Bank,0,0.496,0
+T100049,2024-10-25,C9799,9250.87,Credit Card,Retail,Delhi,Tablet,Kotak Mahindra,0,0.381,0
+T100050,2020-09-07,C7082,48479.54,Debit Card,Entertainment,Bangalore,Mobile,Axis Bank,1,0.163,0
+T100051,2022-10-05,C8760,38758.89,UPI,Travel,Mumbai,Tablet,ICICI Bank,1,0.786,0
+T100052,2022-05-15,C2774,46975.55,Wallet,E-commerce,Delhi,Tablet,Axis Bank,0,0.734,0
+T100053,2025-04-11,C3706,44742.42,UPI,Travel,Delhi,Mobile,Axis Bank,0,0.384,0
+T100054,2025-10-15,C5432,29899.02,UPI,Retail,Chennai,Tablet,Kotak Mahindra,1,0.025,0
+T100055,2021-07-14,C9111,46094.49,Debit Card,Food,Chennai,Mobile,Axis Bank,0,0.839,1
+T100056,2025-02-10,C2334,4433.74,Wallet,Entertainment,Hyderabad,Mobile,Axis Bank,0,0.011,0
+T100057,2023-08-22,C7492,9807.18,Wallet,E-commerce,Bangalore,Desktop,SBI,0,0.704,0
+T100058,2023-11-27,C3823,2270.91,Net Banking,Entertainment,Hyderabad,Desktop,Kotak Mahindra,0,0.97,0
+T100059,2024-02-29,C2570,16273.26,UPI,Retail,Chennai,Tablet,HDFC Bank,0,0.438,0
+T100060,2025-08-14,C7800,19439.98,UPI,Entertainment,Mumbai,Tablet,ICICI Bank,1,0.235,0
+T100061,2023-08-02,C5086,13574.74,Credit Card,E-commerce,Chennai,Mobile,Axis Bank,1,0.705,0
+T100062,2023-07-06,C6409,41438.59,Net Banking,Retail,Bangalore,Tablet,ICICI Bank,0,0.817,1
+T100063,2022-11-26,C3582,17844.1,Credit Card,Entertainment,Chennai,Mobile,HDFC Bank,0,0.546,0
+T100064,2024-07-10,C7425,14053.92,Credit Card,Food,Bangalore,Mobile,ICICI Bank,1,0.967,0
+T100065,2020-05-18,C2492,27139.38,Credit Card,Retail,Bangalore,Tablet,HDFC Bank,0,0.052,0
+T100066,2023-11-09,C1626,7054.8,Debit Card,Retail,Bangalore,Mobile,SBI,1,0.505,0
+T100067,2020-03-30,C2125,40111.83,Debit Card,Food,Bangalore,Desktop,Axis Bank,0,0.718,0
+T100068,2022-02-16,C4713,3736.79,Credit Card,Travel,Bangalore,Tablet,HDFC Bank,0,0.863,0
+T100069,2025-02-18,C7942,49344.48,Net Banking,E-commerce,Mumbai,Desktop,ICICI Bank,0,0.179,0
+T100070,2022-12-30,C9520,38614.52,UPI,Travel,Hyderabad,Tablet,Axis Bank,0,0.8,0
+T100071,2021-02-28,C6910,9943.8,Net Banking,Entertainment,Delhi,Mobile,SBI,0,0.553,0
+T100072,2024-10-05,C3367,286.05,Wallet,Food,Hyderabad,Tablet,Axis Bank,0,0.397,0
+T100073,2023-01-22,C5829,40774.92,Debit Card,Travel,Bangalore,Desktop,HDFC Bank,0,0.132,0
+T100074,2022-09-13,C8622,35345.8,UPI,Retail,Mumbai,Mobile,SBI,0,0.865,0
+T100075,2020-09-07,C5790,36453.07,UPI,Entertainment,Chennai,Tablet,ICICI Bank,0,0.157,0
+T100076,2022-05-15,C6288,38565.8,Wallet,Entertainment,Mumbai,Tablet,SBI,1,0.31,0
+T100077,2023-03-25,C8664,3711.49,Wallet,Travel,Bangalore,Tablet,SBI,1,0.29,0
+T100078,2025-07-29,C6938,17929.7,Credit Card,Travel,Mumbai,Desktop,Kotak Mahindra,0,0.871,0
+T100079,2023-11-04,C5873,5802.29,Debit Card,Food,Mumbai,Desktop,SBI,0,0.673,0
+T100080,2022-12-19,C8247,43156.54,Debit Card,E-commerce,Bangalore,Tablet,SBI,0,0.797,0
+T100081,2020-01-07,C5618,31168.67,Net Banking,Travel,Mumbai,Mobile,Axis Bank,0,0.25,1
+T100082,2025-05-17,C9468,16551.59,Credit Card,Travel,Delhi,Mobile,ICICI Bank,1,0.625,0
+T100083,2024-03-31,C8694,3187.28,Credit Card,Retail,Delhi,Desktop,Axis Bank,0,0.572,0
+T100084,2024-11-28,C3908,15556.01,Credit Card,Entertainment,Mumbai,Mobile,Axis Bank,0,0.833,0
+T100085,2023-09-16,C5231,16265.91,Credit Card,E-commerce,Chennai,Desktop,HDFC Bank,1,0.906,1
+T100086,2023-02-18,C7636,36483.01,Debit Card,Retail,Bangalore,Tablet,Axis Bank,0,0.012,0
+T100087,2024-10-11,C5033,31881.5,Debit Card,Food,Delhi,Desktop,Kotak Mahindra,0,0.674,0
+T100088,2025-03-15,C1743,44361.77,Credit Card,Food,Chennai,Desktop,Kotak Mahindra,1,0.052,0
+T100089,2022-12-07,C6070,23616.02,Net Banking,Travel,Mumbai,Tablet,HDFC Bank,0,0.549,0
+T100090,2021-04-17,C9127,5988.52,UPI,Travel,Chennai,Mobile,ICICI Bank,1,0.288,0
+T100091,2024-09-01,C3065,35665.11,UPI,Food,Hyderabad,Desktop,ICICI Bank,0,0.307,1
+T100092,2020-04-14,C8547,38041.64,Net Banking,Travel,Delhi,Desktop,Axis Bank,0,0.353,0
+T100093,2021-12-12,C7918,28068.25,Credit Card,E-commerce,Mumbai,Tablet,Axis Bank,0,0.621,0
+T100094,2021-02-01,C9476,38550.65,Debit Card,Travel,Bangalore,Mobile,Axis Bank,1,0.334,1
+T100095,2025-10-29,C1122,24694.84,UPI,Entertainment,Mumbai,Desktop,ICICI Bank,0,0.733,0
+T100096,2020-01-14,C8424,26141.41,Wallet,Travel,Bangalore,Tablet,SBI,0,0.405,0
+T100097,2024-06-16,C2284,21382.78,Wallet,Retail,Mumbai,Desktop,Kotak Mahindra,0,0.068,0
+T100098,2022-09-18,C1161,1280.7,Net Banking,E-commerce,Chennai,Tablet,SBI,0,0.784,0
+T100099,2021-03-23,C6155,5403.49,Credit Card,Retail,Chennai,Mobile,SBI,0,0.286,0
+T100100,2021-06-12,C9475,1581.14,UPI,Retail,Chennai,Mobile,ICICI Bank,0,0.433,0
+T100101,2024-08-24,C2686,31824.16,Credit Card,Entertainment,Hyderabad,Mobile,SBI,0,0.685,0
+T100102,2022-06-22,C7033,15724.66,UPI,E-commerce,Bangalore,Mobile,HDFC Bank,0,0.332,0
+T100103,2025-09-21,C5042,25433.45,Net Banking,E-commerce,Chennai,Desktop,Axis Bank,0,0.057,0
+T100104,2023-02-15,C7378,45379.25,Net Banking,E-commerce,Hyderabad,Desktop,HDFC Bank,0,0.374,0
+T100105,2025-01-13,C1685,12472.12,Wallet,E-commerce,Bangalore,Mobile,Kotak Mahindra,0,0.944,1
+T100106,2021-10-25,C1066,20525.04,Credit Card,E-commerce,Mumbai,Mobile,Axis Bank,1,0.642,0
+T100107,2025-06-04,C5067,37780.0,Wallet,Entertainment,Hyderabad,Mobile,SBI,0,0.671,1
+T100108,2023-11-01,C6463,11447.62,Credit Card,Travel,Delhi,Desktop,Kotak Mahindra,1,0.632,0
+T100109,2021-09-09,C1634,3858.23,Wallet,Retail,Hyderabad,Mobile,Axis Bank,0,0.199,0
+T100110,2025-04-09,C9294,14494.68,Debit Card,E-commerce,Hyderabad,Mobile,SBI,0,0.418,0
+T100111,2023-10-12,C7802,8069.45,Debit Card,Travel,Bangalore,Mobile,HDFC Bank,0,0.751,0
+T100112,2022-08-24,C4721,46485.59,Debit Card,Travel,Mumbai,Tablet,Axis Bank,0,0.101,0
+T100113,2023-12-14,C8898,40407.94,Debit Card,Retail,Delhi,Mobile,SBI,0,0.278,0
+T100114,2021-03-27,C4363,31673.85,UPI,Entertainment,Chennai,Tablet,HDFC Bank,0,0.276,0
+T100115,2024-08-20,C8468,43574.31,Debit Card,Food,Chennai,Tablet,Kotak Mahindra,0,0.432,0
+T100116,2022-06-22,C5789,40185.57,Net Banking,Food,Hyderabad,Mobile,Kotak Mahindra,0,0.98,0
+T100117,2023-01-04,C9334,9336.64,Net Banking,Travel,Bangalore,Tablet,Kotak Mahindra,0,0.068,0
+T100118,2021-07-27,C9529,44629.02,UPI,Retail,Bangalore,Mobile,Kotak Mahindra,0,0.519,0
+T100119,2021-05-12,C7239,26971.72,Debit Card,Food,Chennai,Desktop,ICICI Bank,0,0.179,0
+T100120,2022-01-17,C3574,40373.93,Debit Card,Travel,Delhi,Desktop,Axis Bank,0,0.971,0
+T100121,2023-05-30,C8608,44805.6,Debit Card,Entertainment,Mumbai,Desktop,Axis Bank,0,0.113,0
+T100122,2025-05-23,C4558,15906.99,Wallet,Food,Delhi,Desktop,ICICI Bank,0,0.404,0
+T100123,2023-01-10,C5364,5511.5,Credit Card,Travel,Mumbai,Tablet,SBI,0,0.738,0
+T100124,2020-02-06,C2180,11404.48,Wallet,Travel,Chennai,Mobile,SBI,0,0.705,0
+T100125,2021-06-26,C1126,21361.12,Credit Card,E-commerce,Mumbai,Mobile,Kotak Mahindra,0,0.423,0
+T100126,2024-07-10,C5713,40902.56,Debit Card,Entertainment,Bangalore,Mobile,HDFC Bank,0,0.347,0
+T100127,2022-05-19,C7778,43037.92,Debit Card,E-commerce,Hyderabad,Desktop,SBI,0,0.398,0
+T100128,2020-02-26,C1319,357.54,Wallet,Retail,Hyderabad,Desktop,HDFC Bank,0,0.264,0
+T100129,2022-08-23,C9165,25542.26,Wallet,E-commerce,Chennai,Mobile,Axis Bank,0,0.205,0
+T100130,2023-10-14,C4930,20876.38,Credit Card,E-commerce,Bangalore,Desktop,HDFC Bank,0,0.483,0
+T100131,2025-08-25,C6234,11113.17,Net Banking,Food,Delhi,Mobile,Axis Bank,0,0.269,0
+T100132,2021-02-16,C9912,6002.07,Credit Card,Travel,Bangalore,Mobile,ICICI Bank,1,0.287,0
+T100133,2020-10-06,C6434,16887.38,Wallet,Entertainment,Hyderabad,Mobile,ICICI Bank,0,0.657,0
+T100134,2023-08-14,C5343,47146.06,Wallet,E-commerce,Hyderabad,Mobile,Kotak Mahindra,1,0.969,0
+T100135,2022-12-29,C9301,16166.91,UPI,Entertainment,Bangalore,Mobile,SBI,0,0.604,0
+T100136,2021-04-18,C6607,25944.34,Wallet,E-commerce,Bangalore,Mobile,Kotak Mahindra,0,0.077,0
+T100137,2025-11-27,C9219,35153.92,UPI,Retail,Hyderabad,Mobile,Axis Bank,0,0.076,0
+T100138,2025-08-23,C4986,18187.84,Net Banking,E-commerce,Delhi,Desktop,Kotak Mahindra,0,0.951,0
+T100139,2021-05-10,C7123,48589.39,Credit Card,Food,Chennai,Mobile,HDFC Bank,0,0.297,0
+T100140,2025-03-03,C6357,48122.74,Credit Card,Travel,Chennai,Mobile,Axis Bank,0,0.092,0
+T100141,2024-05-29,C7727,12596.6,UPI,Retail,Bangalore,Desktop,ICICI Bank,0,0.599,0
+T100142,2022-08-31,C5042,24867.45,Credit Card,E-commerce,Chennai,Desktop,SBI,0,0.624,0
+T100143,2022-07-21,C6175,15050.91,Wallet,Entertainment,Hyderabad,Desktop,Axis Bank,0,0.649,0
+T100144,2025-12-12,C2712,14249.18,Debit Card,Retail,Hyderabad,Mobile,Axis Bank,0,0.267,0
+T100145,2023-05-31,C6700,1853.98,UPI,Retail,Bangalore,Tablet,HDFC Bank,0,0.015,0
+T100146,2022-10-25,C8454,30482.12,Credit Card,E-commerce,Bangalore,Tablet,SBI,0,0.965,0
+T100147,2021-05-01,C8172,25138.92,UPI,Retail,Bangalore,Desktop,ICICI Bank,0,0.251,0
+T100148,2024-07-29,C2050,2583.42,UPI,Entertainment,Delhi,Tablet,Axis Bank,1,0.676,0
+T100149,2023-07-15,C9844,13939.54,Debit Card,Retail,Chennai,Desktop,Axis Bank,0,0.707,0
+T100150,2020-12-22,C8620,45414.21,Wallet,Entertainment,Bangalore,Mobile,HDFC Bank,1,0.61,0
+T100151,2024-07-12,C4882,11985.7,UPI,E-commerce,Mumbai,Tablet,Kotak Mahindra,0,0.313,0
+T100152,2021-07-18,C2944,7253.29,Credit Card,Travel,Mumbai,Mobile,ICICI Bank,0,0.271,1
+T100153,2025-07-10,C8709,24477.74,Net Banking,Retail,Hyderabad,Tablet,SBI,0,0.598,0
+T100154,2025-06-09,C7110,49282.67,UPI,Travel,Chennai,Mobile,Axis Bank,0,0.866,0
+T100155,2024-09-25,C5563,12110.34,UPI,Entertainment,Bangalore,Tablet,Axis Bank,1,0.947,0
+T100156,2021-09-15,C2545,33610.06,Debit Card,Retail,Mumbai,Mobile,ICICI Bank,0,0.106,0
+T100157,2025-02-08,C4467,38083.36,Wallet,Food,Chennai,Mobile,Kotak Mahindra,0,0.155,0
+T100158,2021-12-12,C5657,11889.5,Net Banking,Travel,Hyderabad,Tablet,Axis Bank,0,0.945,0
+T100159,2021-06-18,C6867,36413.54,Credit Card,Retail,Delhi,Mobile,ICICI Bank,0,0.737,0
+T100160,2023-07-20,C2486,18395.48,Net Banking,Travel,Chennai,Mobile,HDFC Bank,1,0.883,0
+T100161,2025-07-28,C6454,31618.97,Credit Card,Retail,Chennai,Mobile,Kotak Mahindra,0,0.203,0
+T100162,2023-07-08,C2135,31680.15,Wallet,E-commerce,Delhi,Tablet,SBI,0,0.588,0
+T100163,2021-02-11,C4462,26793.38,Credit Card,Travel,Chennai,Tablet,Axis Bank,0,0.701,0
+T100164,2020-03-24,C4480,4523.59,Debit Card,Food,Hyderabad,Mobile,ICICI Bank,0,0.68,0
+T100165,2025-12-17,C9283,41766.77,Debit Card,Food,Hyderabad,Mobile,HDFC Bank,0,0.408,0
+T100166,2022-03-01,C4229,16045.8,Debit Card,Entertainment,Delhi,Tablet,SBI,0,0.015,0
+T100167,2025-04-20,C2274,9334.06,Debit Card,Retail,Bangalore,Tablet,ICICI Bank,0,0.583,0
+T100168,2023-03-15,C4416,2048.35,Net Banking,Travel,Mumbai,Mobile,ICICI Bank,0,0.253,0
+T100169,2023-03-07,C6375,29548.74,Wallet,Entertainment,Bangalore,Mobile,SBI,0,0.45,1
+T100170,2021-05-25,C2057,33881.44,Credit Card,Travel,Chennai,Mobile,HDFC Bank,0,0.958,0
+T100171,2024-06-20,C5202,839.23,Credit Card,Retail,Mumbai,Desktop,HDFC Bank,0,0.399,0
+T100172,2025-10-03,C2271,25609.53,Debit Card,Food,Delhi,Tablet,Kotak Mahindra,0,0.84,0
+T100173,2023-12-24,C2851,11332.52,Debit Card,E-commerce,Delhi,Desktop,Axis Bank,0,0.189,0
+T100174,2022-02-01,C3518,32262.19,UPI,Food,Mumbai,Tablet,SBI,0,0.672,0
+T100175,2020-12-22,C5080,8726.58,Wallet,Entertainment,Hyderabad,Tablet,SBI,0,0.977,0
+T100176,2025-06-13,C1085,34549.98,Net Banking,E-commerce,Mumbai,Tablet,SBI,0,0.102,0
+T100177,2020-04-29,C5482,19342.9,Credit Card,Entertainment,Chennai,Tablet,HDFC Bank,0,0.008,0
+T100178,2024-09-29,C7209,46837.13,UPI,Retail,Hyderabad,Tablet,Axis Bank,0,0.434,0
+T100179,2025-07-29,C5875,6884.67,UPI,E-commerce,Delhi,Tablet,Kotak Mahindra,0,0.093,0
+T100180,2020-10-11,C1673,17059.91,Credit Card,Entertainment,Mumbai,Tablet,ICICI Bank,0,0.748,0
+T100181,2024-02-05,C4641,5682.54,Net Banking,Retail,Bangalore,Desktop,ICICI Bank,0,0.915,0
+T100182,2023-10-21,C1682,46235.43,UPI,Food,Bangalore,Mobile,SBI,0,0.434,0
+T100183,2024-05-13,C6795,43868.19,UPI,Retail,Chennai,Mobile,Axis Bank,0,0.259,0
+T100184,2022-09-25,C5812,12904.5,Wallet,Travel,Bangalore,Desktop,HDFC Bank,0,0.434,0
+T100185,2021-02-16,C2232,33002.6,Net Banking,Retail,Mumbai,Desktop,Axis Bank,0,0.723,0
+T100186,2022-08-10,C5585,40862.94,UPI,Retail,Mumbai,Desktop,Axis Bank,0,0.009,0
+T100187,2024-08-05,C9680,27764.49,Net Banking,Travel,Bangalore,Desktop,HDFC Bank,0,0.589,1
+T100188,2020-06-25,C3794,26487.23,Credit Card,Entertainment,Mumbai,Tablet,SBI,0,0.613,1
+T100189,2022-06-26,C3571,12100.2,Debit Card,Entertainment,Chennai,Mobile,Axis Bank,0,0.638,0
+T100190,2020-08-03,C4875,4664.21,UPI,Retail,Hyderabad,Tablet,ICICI Bank,0,0.242,0
+T100191,2023-03-06,C6674,44861.82,Wallet,Travel,Chennai,Mobile,HDFC Bank,0,0.714,0
+T100192,2025-11-15,C8896,45021.9,Credit Card,Travel,Chennai,Mobile,Kotak Mahindra,0,0.091,0
+T100193,2020-01-08,C2274,31658.74,Net Banking,Food,Mumbai,Desktop,SBI,0,0.199,0
+T100194,2024-10-13,C5266,16958.1,Credit Card,Entertainment,Hyderabad,Tablet,HDFC Bank,0,0.877,0
+T100195,2021-01-03,C6189,17466.99,UPI,E-commerce,Mumbai,Desktop,Kotak Mahindra,0,0.739,0
+T100196,2025-10-09,C8834,36300.52,Net Banking,Entertainment,Delhi,Tablet,Kotak Mahindra,0,0.014,0
+T100197,2024-11-23,C3147,44856.54,Debit Card,Entertainment,Mumbai,Mobile,Axis Bank,0,0.248,0
+T100198,2020-08-12,C1699,44355.45,Credit Card,Food,Mumbai,Desktop,Axis Bank,0,0.214,0
+T100199,2025-10-31,C6478,38995.98,UPI,E-commerce,Mumbai,Desktop,Axis Bank,0,0.271,0
+T100200,2023-01-30,C2022,32105.16,Wallet,Food,Hyderabad,Mobile,HDFC Bank,1,0.248,0
+T100201,2021-03-18,C3705,4216.16,Net Banking,E-commerce,Mumbai,Mobile,HDFC Bank,0,0.063,0
+T100202,2021-02-20,C4356,8089.82,Credit Card,Retail,Hyderabad,Mobile,SBI,1,0.459,0
+T100203,2025-10-25,C3415,44928.72,Credit Card,E-commerce,Bangalore,Desktop,Axis Bank,0,0.733,0
+T100204,2025-09-13,C8588,30325.39,Debit Card,Food,Delhi,Tablet,Kotak Mahindra,1,0.607,0
+T100205,2020-12-26,C8720,469.76,Debit Card,Entertainment,Hyderabad,Desktop,ICICI Bank,0,0.673,0
+T100206,2022-02-24,C6763,5082.56,Wallet,E-commerce,Bangalore,Tablet,SBI,0,0.081,0
+T100207,2021-12-13,C3949,33178.45,Wallet,E-commerce,Hyderabad,Desktop,HDFC Bank,0,0.951,0
+T100208,2020-09-27,C8484,263.03,UPI,Travel,Hyderabad,Desktop,SBI,0,0.838,0
+T100209,2023-06-10,C8963,8048.79,UPI,Entertainment,Delhi,Mobile,SBI,0,0.805,0
+T100210,2020-03-11,C3309,27441.2,Wallet,Retail,Chennai,Tablet,SBI,0,0.823,0
+T100211,2023-08-30,C5068,34597.84,Wallet,Food,Chennai,Desktop,SBI,0,0.933,0
+T100212,2021-05-10,C2936,32601.54,Net Banking,Retail,Hyderabad,Desktop,ICICI Bank,0,0.544,0
+T100213,2025-09-14,C5643,11221.22,Debit Card,Entertainment,Mumbai,Mobile,Axis Bank,0,0.2,0
+T100214,2025-06-19,C2369,35611.84,UPI,E-commerce,Bangalore,Mobile,Kotak Mahindra,0,0.617,0
+T100215,2020-01-23,C1967,11870.08,Debit Card,E-commerce,Mumbai,Tablet,SBI,1,0.743,1
+T100216,2025-12-01,C5809,16276.73,Debit Card,Entertainment,Mumbai,Desktop,SBI,0,0.738,0
+T100217,2022-07-09,C3027,37327.11,Wallet,E-commerce,Hyderabad,Tablet,SBI,1,0.521,0
+T100218,2021-04-03,C1746,32485.15,Net Banking,E-commerce,Hyderabad,Desktop,Axis Bank,0,0.068,0
+T100219,2021-04-21,C6710,42462.68,Credit Card,E-commerce,Hyderabad,Tablet,HDFC Bank,0,0.371,0
+T100220,2024-03-25,C7990,32884.07,Net Banking,Food,Hyderabad,Mobile,HDFC Bank,0,0.921,1
+T100221,2023-02-26,C9769,28419.75,Net Banking,Food,Chennai,Desktop,ICICI Bank,0,0.584,0
+T100222,2023-10-16,C2846,4692.8,Debit Card,Travel,Hyderabad,Tablet,HDFC Bank,0,0.538,0
+T100223,2025-09-21,C5993,18392.11,Net Banking,Retail,Chennai,Mobile,SBI,0,0.269,0
+T100224,2022-08-31,C4899,13267.47,UPI,Entertainment,Chennai,Mobile,SBI,0,0.368,0
+T100225,2023-08-22,C2331,12207.04,Debit Card,Entertainment,Hyderabad,Tablet,SBI,1,0.895,0
+T100226,2021-03-15,C8589,48650.8,UPI,Entertainment,Delhi,Desktop,ICICI Bank,0,0.666,0
+T100227,2024-11-07,C5476,19660.96,Credit Card,Travel,Bangalore,Desktop,SBI,0,0.787,0
+T100228,2024-07-26,C6465,44603.41,Debit Card,Food,Mumbai,Mobile,HDFC Bank,0,0.454,1
+T100229,2025-12-10,C2099,31560.62,Credit Card,Travel,Chennai,Desktop,Axis Bank,0,0.63,0
+T100230,2021-11-03,C1694,39742.62,Debit Card,Entertainment,Bangalore,Desktop,Axis Bank,0,0.248,0
+T100231,2020-12-10,C1778,25136.83,Wallet,Retail,Delhi,Desktop,Kotak Mahindra,0,0.705,0
+T100232,2024-01-11,C3169,28849.43,Net Banking,E-commerce,Mumbai,Mobile,HDFC Bank,0,0.428,0
+T100233,2023-12-18,C3552,24630.96,Wallet,Food,Mumbai,Tablet,SBI,0,0.443,0
+T100234,2025-12-16,C7369,9770.2,Credit Card,Food,Chennai,Desktop,Axis Bank,0,0.649,0
+T100235,2022-07-19,C4358,36125.38,Net Banking,Travel,Hyderabad,Mobile,HDFC Bank,0,0.936,0
+T100236,2023-12-25,C1712,14045.81,Debit Card,Food,Delhi,Mobile,Axis Bank,1,0.064,0
+T100237,2024-04-02,C7607,1225.56,Net Banking,Entertainment,Chennai,Tablet,SBI,0,0.825,0
+T100238,2021-02-12,C4414,32277.16,UPI,Entertainment,Delhi,Desktop,Axis Bank,0,0.292,1
+T100239,2025-05-01,C5638,8863.76,Net Banking,Travel,Hyderabad,Desktop,Kotak Mahindra,0,0.444,0
+T100240,2021-06-10,C3747,47023.52,UPI,Entertainment,Hyderabad,Tablet,Kotak Mahindra,1,0.022,0
+T100241,2022-02-28,C7466,47696.89,Net Banking,Retail,Chennai,Tablet,Axis Bank,0,0.301,0
+T100242,2020-08-27,C9500,45744.07,UPI,Travel,Hyderabad,Mobile,HDFC Bank,0,0.503,0
+T100243,2020-11-10,C4745,18514.23,Credit Card,Retail,Bangalore,Mobile,HDFC Bank,0,0.056,0
+T100244,2024-10-07,C5175,782.68,Wallet,E-commerce,Mumbai,Tablet,HDFC Bank,0,0.491,0
+T100245,2022-10-19,C2621,46416.64,Debit Card,Retail,Chennai,Desktop,Axis Bank,0,0.927,0
+T100246,2021-10-20,C8338,21414.93,Net Banking,E-commerce,Delhi,Mobile,HDFC Bank,0,0.105,0
+T100247,2022-07-30,C7055,48333.07,Wallet,E-commerce,Bangalore,Mobile,SBI,0,0.764,0
+T100248,2025-08-04,C3655,48181.36,Debit Card,Retail,Chennai,Desktop,Kotak Mahindra,0,0.41,0
+T100249,2023-06-06,C7580,42651.94,Debit Card,Travel,Hyderabad,Mobile,SBI,0,0.655,0
+T100250,2024-09-01,C7613,14729.5,UPI,Entertainment,Hyderabad,Desktop,HDFC Bank,0,0.26,0
+T100251,2024-12-17,C5589,19261.04,Credit Card,Entertainment,Hyderabad,Desktop,SBI,0,0.159,0
+T100252,2024-04-07,C5687,42558.32,Credit Card,E-commerce,Hyderabad,Desktop,HDFC Bank,0,0.16,0
+T100253,2023-08-30,C3023,15852.93,Wallet,E-commerce,Delhi,Tablet,Axis Bank,1,0.07,0
+T100254,2020-11-29,C9341,8482.94,Credit Card,Travel,Bangalore,Tablet,SBI,0,0.186,0
+T100255,2024-07-25,C4478,27844.5,Net Banking,Food,Mumbai,Tablet,Axis Bank,0,0.664,0
+T100256,2023-04-16,C4223,46808.38,Credit Card,Retail,Delhi,Desktop,Axis Bank,0,0.882,0
+T100257,2022-03-14,C9030,34804.53,Wallet,E-commerce,Delhi,Desktop,ICICI Bank,0,0.814,0
+T100258,2024-01-24,C9692,28507.36,Credit Card,Entertainment,Mumbai,Tablet,HDFC Bank,0,0.685,0
+T100259,2023-06-13,C2445,4867.85,Net Banking,Travel,Mumbai,Mobile,Kotak Mahindra,0,0.11,0
+T100260,2025-04-04,C1645,30754.21,UPI,Retail,Hyderabad,Desktop,HDFC Bank,0,0.289,0
+T100261,2022-04-22,C2706,49502.79,Wallet,Travel,Delhi,Mobile,Kotak Mahindra,0,0.31,0
+T100262,2023-01-24,C1207,7012.8,UPI,Retail,Chennai,Mobile,HDFC Bank,0,0.25,0
+T100263,2022-08-09,C6532,25921.3,UPI,Retail,Mumbai,Desktop,Axis Bank,0,0.515,0
+T100264,2024-11-05,C3833,43869.88,UPI,E-commerce,Mumbai,Desktop,SBI,0,0.536,0
+T100265,2023-04-13,C8664,37041.02,Debit Card,Travel,Bangalore,Mobile,SBI,0,0.357,1
+T100266,2023-09-14,C4141,34853.82,Debit Card,Travel,Chennai,Mobile,ICICI Bank,0,0.354,0
+T100267,2023-08-30,C1673,35127.18,UPI,Entertainment,Chennai,Tablet,Kotak Mahindra,0,0.829,0
+T100268,2020-04-01,C9466,17980.96,Wallet,Entertainment,Mumbai,Tablet,Kotak Mahindra,0,0.789,0
+T100269,2022-03-02,C6239,14686.66,Net Banking,E-commerce,Hyderabad,Desktop,Kotak Mahindra,0,0.308,0
+T100270,2023-04-18,C5182,40469.96,Net Banking,E-commerce,Bangalore,Tablet,Axis Bank,0,0.914,0
+T100271,2022-11-07,C3339,40507.57,Credit Card,Food,Chennai,Tablet,Kotak Mahindra,0,0.953,0
+T100272,2024-03-28,C2387,43354.95,Wallet,Entertainment,Mumbai,Tablet,SBI,0,0.327,0
+T100273,2023-11-13,C7146,45662.9,Debit Card,Retail,Chennai,Tablet,Axis Bank,1,0.354,0
+T100274,2020-11-14,C9127,25572.01,UPI,Travel,Bangalore,Mobile,HDFC Bank,0,0.506,0
+T100275,2021-12-07,C9427,25080.8,Credit Card,E-commerce,Bangalore,Desktop,Kotak Mahindra,0,0.941,1
+T100276,2022-04-03,C4621,39916.78,Net Banking,Travel,Delhi,Tablet,Kotak Mahindra,0,0.876,0
+T100277,2021-10-28,C4625,32501.7,Debit Card,Travel,Mumbai,Mobile,HDFC Bank,0,0.103,1
+T100278,2021-01-08,C3540,35101.32,Debit Card,Food,Bangalore,Mobile,Kotak Mahindra,0,0.393,0
+T100279,2023-06-23,C8651,39791.68,UPI,Entertainment,Delhi,Mobile,HDFC Bank,0,0.553,0
+T100280,2025-11-03,C8544,44501.37,Net Banking,E-commerce,Delhi,Tablet,Axis Bank,1,0.503,0
+T100281,2021-12-08,C8383,16906.38,Wallet,Travel,Chennai,Tablet,SBI,0,0.194,0
+T100282,2020-11-08,C1391,18785.39,Debit Card,E-commerce,Chennai,Desktop,HDFC Bank,0,0.859,0
+T100283,2025-08-13,C9822,4708.16,UPI,Retail,Delhi,Tablet,ICICI Bank,0,0.677,1
+T100284,2022-05-28,C8502,28918.22,Wallet,Food,Chennai,Tablet,HDFC Bank,0,0.838,0
+T100285,2020-03-19,C2201,1806.75,Net Banking,Retail,Bangalore,Mobile,Kotak Mahindra,0,0.859,0
+T100286,2025-03-07,C9154,23285.24,Debit Card,E-commerce,Hyderabad,Desktop,Axis Bank,0,0.748,0
+T100287,2021-07-21,C8829,27136.81,Wallet,E-commerce,Bangalore,Tablet,Axis Bank,0,0.439,0
+T100288,2025-06-18,C3293,14334.2,Wallet,Entertainment,Delhi,Tablet,HDFC Bank,0,0.611,1
+T100289,2021-06-15,C8513,29545.75,Wallet,Travel,Delhi,Mobile,SBI,0,0.16,0
+T100290,2022-12-06,C8205,1534.71,Debit Card,Travel,Bangalore,Mobile,ICICI Bank,0,0.674,0
+T100291,2024-07-27,C5126,1877.04,Debit Card,Retail,Chennai,Tablet,Axis Bank,0,0.179,0
+T100292,2020-01-02,C9980,41131.8,Credit Card,Food,Chennai,Desktop,Kotak Mahindra,0,0.694,0
+T100293,2024-06-14,C1302,18015.93,Net Banking,Travel,Delhi,Desktop,Kotak Mahindra,0,0.23,1
+T100294,2020-09-29,C8541,6361.76,UPI,Entertainment,Mumbai,Mobile,SBI,0,0.118,0
+T100295,2023-12-04,C7233,26116.94,Wallet,Retail,Chennai,Mobile,Axis Bank,0,0.165,0
+T100296,2020-06-04,C7952,38501.98,Credit Card,Retail,Bangalore,Tablet,HDFC Bank,1,0.002,0
+T100297,2024-10-14,C9528,10798.89,UPI,Entertainment,Chennai,Mobile,Kotak Mahindra,0,0.719,0
+T100298,2022-04-28,C8999,31148.29,Credit Card,Food,Bangalore,Tablet,SBI,0,0.732,0
+T100299,2024-01-16,C2098,4276.52,Debit Card,Entertainment,Delhi,Desktop,Axis Bank,1,0.515,0
+T100300,2025-08-18,C1170,2593.57,Wallet,Food,Chennai,Desktop,Axis Bank,0,0.161,0
+T100301,2022-09-07,C5218,26572.42,UPI,Entertainment,Bangalore,Tablet,Axis Bank,0,0.084,1
+T100302,2023-01-17,C5820,27036.35,UPI,Entertainment,Delhi,Mobile,Axis Bank,0,0.019,0
+T100303,2024-01-26,C5638,31875.12,UPI,E-commerce,Mumbai,Desktop,Axis Bank,0,0.166,0
+T100304,2022-11-13,C4602,36307.31,UPI,Retail,Bangalore,Mobile,Kotak Mahindra,0,0.891,1
+T100305,2024-11-07,C6040,48792.85,UPI,Entertainment,Mumbai,Desktop,SBI,0,0.242,0
+T100306,2023-07-18,C3616,25819.85,Credit Card,Entertainment,Mumbai,Tablet,Axis Bank,0,0.354,0
+T100307,2020-09-02,C9087,16154.59,Wallet,Travel,Hyderabad,Tablet,ICICI Bank,0,0.105,0
+T100308,2021-01-30,C1112,39761.36,Debit Card,Retail,Chennai,Tablet,ICICI Bank,0,0.222,0
+T100309,2021-12-22,C6378,13548.9,Debit Card,Travel,Bangalore,Desktop,SBI,0,0.519,0
+T100310,2024-11-24,C3413,21954.18,Debit Card,Retail,Mumbai,Mobile,HDFC Bank,0,0.608,1
+T100311,2025-06-09,C5775,3932.03,Debit Card,Travel,Hyderabad,Mobile,HDFC Bank,0,0.245,0
+T100312,2023-11-20,C1939,1277.28,Credit Card,Entertainment,Delhi,Mobile,HDFC Bank,1,0.058,0
+T100313,2024-02-20,C6530,48132.79,Net Banking,Entertainment,Bangalore,Desktop,ICICI Bank,1,0.391,0
+T100314,2024-04-07,C2471,41800.65,Wallet,E-commerce,Mumbai,Desktop,HDFC Bank,0,0.234,0
+T100315,2020-07-27,C8187,34801.75,UPI,Travel,Chennai,Desktop,Kotak Mahindra,1,0.22,0
+T100316,2022-08-31,C3039,20453.56,Net Banking,Food,Hyderabad,Desktop,Axis Bank,0,0.96,0
+T100317,2024-06-25,C7548,8672.98,Debit Card,E-commerce,Mumbai,Desktop,ICICI Bank,1,0.616,0
+T100318,2023-02-02,C7801,7830.29,Net Banking,Travel,Chennai,Mobile,SBI,0,0.557,0
+T100319,2020-10-16,C8689,12519.64,Wallet,Travel,Mumbai,Desktop,SBI,0,0.416,1
+T100320,2025-09-03,C7881,27465.84,UPI,E-commerce,Bangalore,Desktop,Axis Bank,0,0.429,0
+T100321,2023-04-06,C3805,35732.65,UPI,Entertainment,Bangalore,Mobile,ICICI Bank,0,0.541,0
+T100322,2024-05-20,C7174,33013.27,Wallet,Travel,Bangalore,Desktop,HDFC Bank,0,0.696,0
+T100323,2020-12-27,C5774,14003.9,Wallet,Entertainment,Hyderabad,Mobile,HDFC Bank,0,0.702,0
+T100324,2020-05-31,C9943,47743.72,Debit Card,E-commerce,Bangalore,Mobile,Kotak Mahindra,0,0.172,0
+T100325,2022-07-22,C9810,36897.47,UPI,Entertainment,Chennai,Tablet,Kotak Mahindra,0,0.5,0
+T100326,2022-09-12,C3872,27722.16,Net Banking,Retail,Mumbai,Tablet,HDFC Bank,0,0.412,0
+T100327,2020-07-25,C9914,30589.92,Credit Card,Food,Delhi,Tablet,SBI,0,0.871,0
+T100328,2021-06-26,C6533,20985.81,Credit Card,Travel,Chennai,Tablet,SBI,0,0.631,0
+T100329,2021-10-27,C3172,12394.07,Wallet,Food,Chennai,Desktop,Kotak Mahindra,0,0.533,0
+T100330,2020-11-15,C4342,17805.07,Debit Card,Entertainment,Bangalore,Tablet,Axis Bank,0,0.115,1
+T100331,2024-12-27,C3048,37894.73,Credit Card,Travel,Hyderabad,Mobile,HDFC Bank,0,0.606,0
+T100332,2024-09-16,C9394,729.53,UPI,Entertainment,Mumbai,Desktop,Kotak Mahindra,0,0.117,0
+T100333,2023-03-20,C5679,5812.47,Wallet,Retail,Hyderabad,Tablet,Kotak Mahindra,1,0.337,0
+T100334,2021-01-01,C2065,2309.67,Net Banking,E-commerce,Mumbai,Mobile,HDFC Bank,0,0.143,0
+T100335,2025-05-17,C8024,2046.03,Wallet,Travel,Mumbai,Desktop,HDFC Bank,0,0.692,0
+T100336,2022-09-25,C1111,42774.47,Net Banking,Retail,Hyderabad,Desktop,SBI,1,0.206,0
+T100337,2022-10-14,C5856,35185.86,Wallet,Retail,Chennai,Tablet,Axis Bank,0,0.392,0
+T100338,2021-12-07,C1653,23713.95,Wallet,Travel,Mumbai,Desktop,Axis Bank,0,0.896,0
+T100339,2020-05-15,C5577,4900.73,Wallet,Entertainment,Hyderabad,Mobile,HDFC Bank,0,0.204,0
+T100340,2025-09-08,C7984,24585.88,Net Banking,Retail,Mumbai,Desktop,ICICI Bank,0,0.508,0
+T100341,2025-06-07,C7295,23678.85,Net Banking,Food,Delhi,Mobile,Kotak Mahindra,0,0.419,0
+T100342,2025-08-15,C3835,8668.36,Wallet,Retail,Chennai,Desktop,Kotak Mahindra,0,0.018,0
+T100343,2022-04-05,C9635,21698.24,Credit Card,Entertainment,Bangalore,Tablet,HDFC Bank,0,0.793,0
+T100344,2024-12-18,C5311,19931.25,Debit Card,Entertainment,Mumbai,Mobile,ICICI Bank,1,0.069,0
+T100345,2021-10-14,C4172,30796.35,Debit Card,Food,Delhi,Desktop,SBI,0,0.474,0
+T100346,2024-09-12,C2698,31758.33,Debit Card,Retail,Bangalore,Desktop,HDFC Bank,0,0.561,0
+T100347,2024-10-15,C7059,2274.75,Net Banking,Entertainment,Bangalore,Desktop,HDFC Bank,0,0.628,0
+T100348,2020-12-22,C8595,18736.88,Net Banking,Travel,Mumbai,Mobile,Kotak Mahindra,0,0.689,0
+T100349,2025-03-31,C7251,31296.74,Credit Card,E-commerce,Hyderabad,Mobile,HDFC Bank,0,0.253,0
+T100350,2024-09-03,C5723,25161.78,Debit Card,E-commerce,Mumbai,Mobile,HDFC Bank,0,0.01,1
+T100351,2023-12-21,C7293,42825.93,Debit Card,E-commerce,Delhi,Tablet,HDFC Bank,0,0.723,0
+T100352,2020-06-02,C3098,32938.09,Wallet,Retail,Bangalore,Tablet,Kotak Mahindra,0,0.536,0
+T100353,2024-06-13,C8466,8155.09,Net Banking,Food,Mumbai,Mobile,SBI,0,0.836,0
+T100354,2023-07-18,C7997,3537.73,Debit Card,Entertainment,Hyderabad,Desktop,SBI,0,0.821,1
+T100355,2020-05-11,C2402,32124.54,Credit Card,Travel,Mumbai,Tablet,HDFC Bank,0,0.843,0
+T100356,2024-03-23,C6350,1335.3,Credit Card,Travel,Chennai,Mobile,Kotak Mahindra,0,0.485,0
+T100357,2023-06-01,C3153,29292.92,Debit Card,Retail,Hyderabad,Desktop,SBI,0,0.334,0
+T100358,2024-06-22,C3934,47012.11,Net Banking,E-commerce,Delhi,Tablet,SBI,0,0.792,0
+T100359,2023-02-01,C1508,28777.95,Credit Card,Retail,Bangalore,Desktop,SBI,0,0.451,0
+T100360,2023-07-03,C5870,19414.61,Wallet,Food,Mumbai,Desktop,Kotak Mahindra,0,0.183,0
+T100361,2022-12-10,C7288,32167.98,Credit Card,Food,Hyderabad,Desktop,Kotak Mahindra,1,0.855,0
+T100362,2021-10-15,C3851,22918.06,UPI,Entertainment,Chennai,Desktop,HDFC Bank,0,0.883,0
+T100363,2023-03-29,C1089,27285.38,UPI,Entertainment,Hyderabad,Tablet,Axis Bank,1,0.466,0
+T100364,2021-12-23,C2604,47073.83,Net Banking,Food,Chennai,Tablet,SBI,0,0.076,0
+T100365,2021-02-07,C7371,19311.27,Debit Card,Food,Delhi,Tablet,Axis Bank,1,0.388,0
+T100366,2022-03-05,C3037,48059.92,Net Banking,Food,Bangalore,Mobile,Kotak Mahindra,0,0.804,0
+T100367,2020-03-02,C1879,45268.48,Net Banking,Retail,Delhi,Tablet,Kotak Mahindra,1,0.902,0
+T100368,2025-05-16,C4257,9797.6,Net Banking,Food,Mumbai,Desktop,Kotak Mahindra,1,0.203,1
+T100369,2021-11-16,C9485,3477.37,Net Banking,Travel,Hyderabad,Tablet,Axis Bank,0,0.067,0
+T100370,2024-02-27,C8581,5047.89,Wallet,E-commerce,Chennai,Desktop,Kotak Mahindra,1,0.877,0
+T100371,2022-08-18,C7186,920.91,Wallet,Food,Chennai,Mobile,HDFC Bank,0,0.389,0
+T100372,2023-11-06,C6056,4731.2,Credit Card,E-commerce,Hyderabad,Desktop,Kotak Mahindra,0,0.542,0
+T100373,2025-09-04,C4932,34153.51,UPI,Retail,Hyderabad,Desktop,ICICI Bank,0,0.968,0
+T100374,2022-09-15,C7674,3568.72,Net Banking,E-commerce,Mumbai,Desktop,Axis Bank,0,0.067,0
+T100375,2023-10-14,C3303,15955.59,Credit Card,Retail,Delhi,Mobile,ICICI Bank,0,0.648,0
+T100376,2022-07-25,C6925,42245.32,UPI,Travel,Chennai,Tablet,Kotak Mahindra,0,0.074,0
+T100377,2022-05-27,C6163,1173.36,Debit Card,Retail,Mumbai,Tablet,HDFC Bank,1,0.375,0
+T100378,2022-01-21,C7502,40725.28,Wallet,Retail,Delhi,Mobile,SBI,0,0.804,0
+T100379,2020-04-11,C3197,14099.92,UPI,Entertainment,Mumbai,Desktop,Kotak Mahindra,0,0.433,0
+T100380,2020-04-09,C3560,5917.06,Debit Card,Food,Chennai,Tablet,HDFC Bank,1,0.997,1
+T100381,2023-03-24,C2249,34839.89,UPI,Food,Hyderabad,Mobile,Axis Bank,1,0.559,0
+T100382,2022-12-15,C3380,31450.85,Wallet,Travel,Hyderabad,Tablet,ICICI Bank,1,0.321,1
+T100383,2020-06-27,C1290,43874.83,Wallet,Travel,Delhi,Mobile,ICICI Bank,0,0.22,0
+T100384,2023-04-19,C6565,36756.2,Credit Card,Food,Bangalore,Desktop,ICICI Bank,1,0.351,1
+T100385,2020-04-23,C8161,40176.01,Net Banking,Entertainment,Delhi,Tablet,Axis Bank,0,0.373,0
+T100386,2024-07-22,C1930,14108.91,UPI,Food,Bangalore,Mobile,HDFC Bank,0,0.069,0
+T100387,2020-10-02,C5095,8880.2,UPI,Entertainment,Mumbai,Tablet,Axis Bank,0,0.37,0
+T100388,2020-11-05,C6979,37533.23,Debit Card,Travel,Mumbai,Tablet,ICICI Bank,0,0.464,0
+T100389,2023-05-08,C7909,40343.67,Wallet,E-commerce,Chennai,Tablet,Kotak Mahindra,0,0.723,0
+T100390,2022-03-28,C1870,49525.35,UPI,Travel,Bangalore,Tablet,SBI,0,0.657,0
+T100391,2020-12-31,C9960,20636.76,Wallet,Travel,Chennai,Mobile,Axis Bank,0,0.709,0
+T100392,2020-10-20,C6547,18607.18,UPI,Retail,Hyderabad,Desktop,Axis Bank,0,0.008,0
+T100393,2023-08-12,C8421,38822.88,Credit Card,Retail,Bangalore,Mobile,HDFC Bank,0,0.218,0
+T100394,2024-05-29,C9007,17046.77,Net Banking,Retail,Delhi,Mobile,HDFC Bank,0,0.662,0
+T100395,2023-12-11,C2541,46538.56,UPI,Retail,Hyderabad,Mobile,Axis Bank,0,0.484,0
+T100396,2022-10-21,C9250,42922.05,Wallet,Entertainment,Hyderabad,Desktop,ICICI Bank,0,0.005,0
+T100397,2025-09-13,C3461,21455.41,Credit Card,Food,Delhi,Tablet,SBI,0,0.804,0
+T100398,2020-08-03,C4839,37546.04,UPI,E-commerce,Hyderabad,Tablet,HDFC Bank,0,0.773,0
+T100399,2024-10-06,C3658,37729.6,Debit Card,Travel,Bangalore,Tablet,ICICI Bank,1,0.548,0
+T100400,2020-05-01,C5691,5165.16,Net Banking,Entertainment,Chennai,Desktop,Kotak Mahindra,0,0.066,0
+T100401,2023-01-16,C4900,45128.62,UPI,E-commerce,Hyderabad,Tablet,HDFC Bank,0,0.767,0
+T100402,2020-01-30,C5047,25267.57,Credit Card,Entertainment,Bangalore,Desktop,ICICI Bank,0,0.584,0
+T100403,2021-08-24,C7105,41324.61,Debit Card,Entertainment,Mumbai,Tablet,ICICI Bank,0,0.782,0
+T100404,2020-01-08,C3915,16009.28,Credit Card,Travel,Bangalore,Tablet,SBI,0,0.752,0
+T100405,2023-02-02,C1207,44777.21,Credit Card,Food,Chennai,Mobile,SBI,0,0.803,0
+T100406,2023-02-11,C3838,19466.19,Debit Card,Retail,Bangalore,Desktop,Kotak Mahindra,0,0.518,0
+T100407,2025-11-23,C5714,551.77,Credit Card,Food,Delhi,Mobile,ICICI Bank,0,0.14,0
+T100408,2021-10-10,C7489,45270.05,Debit Card,Travel,Chennai,Mobile,ICICI Bank,0,0.671,0
+T100409,2021-05-16,C3254,4573.42,UPI,Travel,Mumbai,Mobile,SBI,0,0.62,0
+T100410,2021-03-17,C2615,15972.49,Debit Card,Travel,Delhi,Desktop,HDFC Bank,0,0.742,0
+T100411,2022-07-15,C6309,47503.6,Debit Card,E-commerce,Bangalore,Desktop,HDFC Bank,0,0.17,0
+T100412,2024-03-05,C4937,47530.85,Net Banking,Food,Chennai,Tablet,Axis Bank,0,0.195,0
+T100413,2025-06-14,C5903,28676.16,Debit Card,Food,Mumbai,Mobile,SBI,0,0.89,0
+T100414,2022-08-05,C1511,31595.54,Debit Card,Entertainment,Delhi,Tablet,Axis Bank,1,0.75,0
+T100415,2022-07-29,C6052,22427.79,UPI,Entertainment,Mumbai,Mobile,SBI,1,0.908,1
+T100416,2024-03-31,C8581,14667.61,Net Banking,Entertainment,Bangalore,Desktop,Kotak Mahindra,0,0.759,0
+T100417,2025-08-31,C9903,16439.94,Wallet,Travel,Mumbai,Desktop,ICICI Bank,0,0.597,1
+T100418,2021-04-19,C4524,33629.2,UPI,Food,Hyderabad,Desktop,Kotak Mahindra,0,0.654,0
+T100419,2020-10-24,C5763,37621.2,UPI,Travel,Delhi,Mobile,SBI,0,0.889,0
+T100420,2023-09-29,C6978,39581.04,Wallet,E-commerce,Mumbai,Desktop,ICICI Bank,0,0.579,0
+T100421,2022-03-10,C6623,39483.01,Debit Card,Entertainment,Bangalore,Mobile,HDFC Bank,1,0.632,0
+T100422,2022-11-20,C6416,4569.39,Credit Card,Travel,Bangalore,Tablet,HDFC Bank,1,0.156,0
+T100423,2020-02-20,C3209,24726.07,Net Banking,Travel,Mumbai,Mobile,Axis Bank,0,0.474,0
+T100424,2024-11-22,C1051,2887.36,Credit Card,E-commerce,Bangalore,Tablet,SBI,0,0.716,0
+T100425,2024-11-27,C5994,27480.95,Wallet,Retail,Chennai,Mobile,SBI,0,0.271,1
+T100426,2020-06-17,C9443,22082.11,UPI,Food,Chennai,Tablet,HDFC Bank,0,0.202,0
+T100427,2023-06-10,C4962,44386.33,UPI,Retail,Chennai,Desktop,Kotak Mahindra,0,0.314,0
+T100428,2020-12-30,C8341,17552.24,Net Banking,Entertainment,Hyderabad,Tablet,ICICI Bank,0,0.242,0
+T100429,2025-06-10,C5608,5862.18,UPI,Travel,Mumbai,Desktop,Kotak Mahindra,0,0.215,0
+T100430,2022-07-08,C1855,7158.15,UPI,E-commerce,Hyderabad,Desktop,Kotak Mahindra,0,0.425,0
+T100431,2020-01-22,C3722,38077.92,Net Banking,E-commerce,Bangalore,Tablet,HDFC Bank,0,0.908,0
+T100432,2022-05-18,C7163,30914.72,Net Banking,Food,Hyderabad,Mobile,HDFC Bank,1,0.507,1
+T100433,2024-01-22,C2477,5065.12,Wallet,Retail,Bangalore,Mobile,HDFC Bank,0,0.188,0
+T100434,2025-02-26,C1850,4214.5,UPI,Food,Bangalore,Mobile,Axis Bank,0,0.077,0
+T100435,2023-03-02,C1592,35051.45,UPI,Travel,Delhi,Mobile,Kotak Mahindra,0,0.696,0
+T100436,2020-11-17,C5524,3647.42,Wallet,Food,Chennai,Mobile,SBI,0,0.383,0
+T100437,2025-06-03,C2693,41094.78,Debit Card,E-commerce,Bangalore,Desktop,ICICI Bank,0,0.822,0
+T100438,2024-09-04,C7430,35315.05,Debit Card,E-commerce,Delhi,Mobile,Axis Bank,0,0.66,0
+T100439,2024-02-14,C8411,4076.63,Debit Card,Entertainment,Chennai,Desktop,SBI,1,0.796,0
+T100440,2024-02-13,C1326,4251.04,Wallet,Entertainment,Bangalore,Desktop,Kotak Mahindra,0,0.272,0
+T100441,2021-12-08,C9655,49332.11,UPI,Travel,Bangalore,Desktop,HDFC Bank,1,0.692,0
+T100442,2025-10-31,C8547,18719.8,Wallet,Retail,Hyderabad,Tablet,Kotak Mahindra,0,0.264,0
+T100443,2023-04-18,C2976,18538.4,Wallet,Food,Hyderabad,Tablet,ICICI Bank,0,0.939,0
+T100444,2023-04-29,C5556,40641.85,Debit Card,Travel,Chennai,Desktop,Axis Bank,0,0.636,0
+T100445,2024-11-18,C8749,47362.96,Credit Card,Entertainment,Bangalore,Tablet,Axis Bank,0,0.325,0
+T100446,2022-12-29,C7626,49300.19,UPI,Food,Mumbai,Mobile,ICICI Bank,0,0.27,0
+T100447,2020-10-01,C9705,37671.38,Debit Card,Entertainment,Hyderabad,Mobile,SBI,0,0.191,0
+T100448,2025-01-30,C3231,18819.22,Credit Card,Food,Chennai,Desktop,SBI,0,0.695,0
+T100449,2022-08-15,C8295,4184.2,Credit Card,Retail,Bangalore,Mobile,Axis Bank,1,0.219,0
+T100450,2022-05-27,C6768,38859.57,Net Banking,Travel,Bangalore,Desktop,Axis Bank,1,0.595,0
+T100451,2022-08-16,C5918,27924.63,UPI,Food,Mumbai,Desktop,HDFC Bank,1,0.265,0
+T100452,2024-03-10,C2306,21216.86,Credit Card,E-commerce,Chennai,Mobile,SBI,0,0.662,0
+T100453,2021-08-15,C1848,45318.66,Debit Card,E-commerce,Bangalore,Tablet,ICICI Bank,0,0.815,0
+T100454,2021-01-18,C1475,5568.76,Net Banking,Food,Hyderabad,Mobile,SBI,0,0.778,0
+T100455,2021-05-29,C8727,24636.33,UPI,Food,Mumbai,Mobile,HDFC Bank,0,0.761,0
+T100456,2021-05-10,C2341,577.57,Wallet,Food,Chennai,Desktop,Axis Bank,0,0.188,0
+T100457,2022-05-18,C2597,23438.35,Debit Card,E-commerce,Mumbai,Desktop,Axis Bank,0,0.088,0
+T100458,2022-06-06,C5047,2824.6,Credit Card,E-commerce,Hyderabad,Desktop,HDFC Bank,0,0.699,0
+T100459,2022-12-21,C3920,5949.71,Credit Card,Food,Chennai,Desktop,ICICI Bank,0,0.368,0
+T100460,2021-10-18,C2255,5885.14,Debit Card,Entertainment,Mumbai,Tablet,Axis Bank,1,0.432,0
+T100461,2020-06-26,C3005,32464.02,Credit Card,Entertainment,Delhi,Tablet,Kotak Mahindra,0,0.031,1
+T100462,2022-01-20,C6339,37304.78,Net Banking,Retail,Hyderabad,Tablet,Axis Bank,0,0.26,0
+T100463,2021-04-01,C9655,29172.6,UPI,Travel,Hyderabad,Desktop,Kotak Mahindra,0,0.034,0
+T100464,2022-04-16,C4829,48109.01,Net Banking,Entertainment,Hyderabad,Desktop,HDFC Bank,1,0.879,1
+T100465,2025-09-20,C2125,18749.78,Credit Card,E-commerce,Delhi,Desktop,HDFC Bank,0,0.243,1
+T100466,2020-01-02,C8746,14292.75,Wallet,Entertainment,Delhi,Tablet,Axis Bank,0,0.557,0
+T100467,2022-08-04,C1708,43431.27,UPI,Retail,Bangalore,Desktop,SBI,0,0.039,0
+T100468,2024-06-26,C6536,11187.56,UPI,Retail,Mumbai,Mobile,Kotak Mahindra,0,0.667,0
+T100469,2022-05-02,C9402,48161.49,Debit Card,Travel,Bangalore,Mobile,ICICI Bank,0,0.323,0
+T100470,2020-11-30,C1101,617.6,Debit Card,Entertainment,Mumbai,Desktop,Axis Bank,0,0.898,0
+T100471,2021-03-20,C3004,48494.24,Wallet,E-commerce,Delhi,Mobile,ICICI Bank,0,0.888,0
+T100472,2020-10-06,C4222,2167.56,UPI,E-commerce,Delhi,Mobile,Axis Bank,0,0.325,0
+T100473,2021-01-05,C6447,44558.24,Wallet,Food,Bangalore,Tablet,SBI,0,0.901,0
+T100474,2021-10-02,C7344,26389.78,Debit Card,E-commerce,Chennai,Desktop,SBI,1,0.996,0
+T100475,2022-06-01,C6071,49648.31,Debit Card,Travel,Bangalore,Desktop,SBI,0,0.825,0
+T100476,2020-12-19,C4899,3699.09,UPI,Travel,Mumbai,Tablet,SBI,0,0.845,0
+T100477,2020-01-02,C6771,27697.18,Net Banking,E-commerce,Bangalore,Mobile,HDFC Bank,0,0.249,0
+T100478,2023-05-12,C9977,48465.43,Credit Card,E-commerce,Hyderabad,Mobile,HDFC Bank,0,0.577,0
+T100479,2022-04-16,C3933,26159.66,Debit Card,Food,Mumbai,Desktop,Kotak Mahindra,0,0.067,0
+T100480,2021-12-17,C5393,31473.64,Debit Card,E-commerce,Mumbai,Mobile,ICICI Bank,0,0.095,0
+T100481,2020-01-21,C5998,34790.48,Net Banking,Food,Chennai,Tablet,Axis Bank,0,0.999,1
+T100482,2020-12-09,C8621,22732.51,Net Banking,Food,Delhi,Tablet,Axis Bank,0,0.327,0
+T100483,2022-08-23,C2115,31381.63,Wallet,E-commerce,Mumbai,Desktop,HDFC Bank,0,0.748,0
+T100484,2025-07-14,C5581,29219.87,Wallet,Retail,Delhi,Tablet,Axis Bank,0,0.807,0
+T100485,2023-05-29,C7557,45058.89,Credit Card,Retail,Bangalore,Tablet,HDFC Bank,1,0.858,0
+T100486,2025-10-31,C9919,2281.86,Credit Card,Food,Hyderabad,Desktop,Kotak Mahindra,0,0.998,0
+T100487,2024-09-16,C7697,14055.35,UPI,E-commerce,Chennai,Tablet,ICICI Bank,0,0.241,0
+T100488,2020-08-07,C6924,47521.07,Wallet,Retail,Delhi,Tablet,Kotak Mahindra,0,0.04,0
+T100489,2021-03-08,C6028,44514.29,Debit Card,E-commerce,Mumbai,Tablet,SBI,0,0.411,0
+T100490,2024-01-29,C2519,22788.28,Wallet,E-commerce,Delhi,Mobile,SBI,0,0.13,0
+T100491,2025-01-12,C9325,31010.43,Debit Card,E-commerce,Mumbai,Desktop,SBI,0,0.022,0
+T100492,2020-04-12,C3858,13876.29,Net Banking,Entertainment,Delhi,Desktop,Kotak Mahindra,1,0.36,1
+T100493,2022-07-23,C3465,9414.18,Wallet,E-commerce,Mumbai,Desktop,Axis Bank,0,0.784,1
+T100494,2022-08-23,C4734,23190.28,Net Banking,Entertainment,Bangalore,Mobile,ICICI Bank,0,0.566,0
+T100495,2023-11-03,C5439,17674.08,Credit Card,Food,Mumbai,Mobile,SBI,0,0.313,0
+T100496,2025-02-10,C3960,29186.97,Credit Card,Retail,Mumbai,Desktop,SBI,0,0.654,0
+T100497,2025-05-23,C8736,3895.95,UPI,Retail,Hyderabad,Mobile,SBI,0,0.232,0
+T100498,2024-11-16,C2079,48720.0,Wallet,Retail,Mumbai,Desktop,ICICI Bank,0,0.014,0
+T100499,2022-07-29,C9983,49310.68,Net Banking,Retail,Hyderabad,Mobile,SBI,0,0.764,1
