@@ -6,7 +6,7 @@
 </p>
 
 
-# 🛡️ Real-Time Payment Fraud Detection & Risk Monitoring
+# 🛡️ Payment Fraud Detection & Risk Monitoring
 
 ### *Turning transaction noise into fraud intelligence — before damage is done*
 
