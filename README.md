@@ -24,6 +24,8 @@
 
 > **"Every fraudulent transaction leaves a fingerprint. This dashboard finds it."**
 
+<img width="870" height="487" alt="Screenshot 2026-05-01 201255" src="https://github.com/user-attachments/assets/612d1748-b82f-410f-9016-1e41d8c1e7b7" />
+
 </div>
 
 ---
