@@ -282,14 +282,4 @@ See LICENSE file for full terms.
 
 <div align="center">
 
-### Built to catch what humans miss ⚡
 
-<br>
-
-*If this saved you time or helped your team — drop a ⭐. It means the world.*
-
-[![Star](https://img.shields.io/github/stars/your-username/fraud-detection-powerbi?style=for-the-badge&logo=github&color=yellow)](https://github.com/your-username/fraud-detection-powerbi)
-[![Fork](https://img.shields.io/github/forks/your-username/fraud-detection-powerbi?style=for-the-badge&logo=github&color=blue)](https://github.com/your-username/fraud-detection-powerbi/fork)
-[![Issues](https://img.shields.io/github/issues/your-username/fraud-detection-powerbi?style=for-the-badge&logo=github&color=red)](https://github.com/your-username/fraud-detection-powerbi/issues)
-
-</div>
