@@ -24,7 +24,6 @@ Enterprise fraud intelligence dashboard built with Power BI &amp; Microsoft Fabr
 
 > **"Every fraudulent transaction leaves a fingerprint. This dashboard finds it."**
 
-<img width="870" height="487" alt="Screenshot 2026-05-01 201255" src="https://github.com/user-attachments/assets/612d1748-b82f-410f-9016-1e41d8c1e7b7" />
 
 </div>
 
@@ -82,6 +81,18 @@ Built on **Microsoft Fabric** with the **Fluent 2 design system**, this report w
   [Total Amount]       [Fraud Amount]        [Fraud Amount %]
   [Avg Transactions]   [Fraud Rate %]        [Risk Category]
 ```
+## Page 1:
+
+<img width="870" height="487" alt="Screenshot 2026-05-01 201255" src="https://github.com/user-attachments/assets/612d1748-b82f-410f-9016-1e41d8c1e7b7" />
+
+## Page 2:
+
+<img width="869" height="486" alt="Screenshot 2026-05-05 110659" src="https://github.com/user-attachments/assets/2f137554-1e22-44ae-9ec1-ac8a26bb059f" />
+
+## Page 3:
+
+<img width="871" height="488" alt="Screenshot 2026-05-05 110556" src="https://github.com/user-attachments/assets/317f4e0f-53d1-4849-851a-5323f5ed9fbb" />
+
 
 ---
 
