@@ -14,9 +14,9 @@ Enterprise fraud intelligence dashboard built with Power BI &amp; Microsoft Fabr
 > **"Every fraudulent transaction leaves a fingerprint. This dashboard finds it."**
 
 
-</div>
 
 ---
+
 
 <div align="center">
 
@@ -347,6 +347,8 @@ The **Sum of Transaction Amount by Month** treemap reveals seasonal fraud patter
 | 🗺️ Location & Device Type Fraud | Combo bar + line chart per city |
 | 🎛️ Slicers | Bank Name, Account Age (Months), High Risk flag |
 
+<img width="870" height="487" alt="Screenshot 2026-05-01 201255" src="https://github.com/user-attachments/assets/53e2cc34-38c5-4a52-a342-1170be194bda" />
+
 ---
 
 ### Page 2 — 🔴 FraudPulse (Live Fraud Intelligence)
@@ -365,6 +367,8 @@ The **Sum of Transaction Amount by Month** treemap reveals seasonal fraud patter
 | 📱 Fraud by Device Type | Donut chart — Mobile 44% |
 | 🎛️ Slicers | Bank Name, Transaction Type (ATM/Online/POS), Is_International |
 
+<img width="869" height="486" alt="Screenshot 2026-05-05 110659" src="https://github.com/user-attachments/assets/13f0faed-5fcb-4785-851b-82015a5b5a5b" />
+
 ---
 
 ### Page 3 — 🟡 RiskLens (Risk Category Deep Dive)
@@ -382,6 +386,8 @@ The **Sum of Transaction Amount by Month** treemap reveals seasonal fraud patter
 | 📉 Fraud Transactions by Type & High Risk | Waterfall chart (ATM/POS/Online) |
 | 📅 Fraud Transactions & Fraud Amount% by Month | Dual-axis line chart |
 | 🎛️ Slicers | Risk Category (Low/Medium), Year (2023/2024/2025), Previous Fraud Count |
+
+<img width="871" height="488" alt="Screenshot 2026-05-05 110556" src="https://github.com/user-attachments/assets/b98be1a3-9bbc-4e58-a846-3a49f12cfa39" />
 
 ---
 
@@ -418,18 +424,19 @@ The **Sum of Transaction Amount by Month** treemap reveals seasonal fraud patter
 ### Installation & Setup
 
 ```bash
-# 1. Clone this repository
-git clone https://github.com/your-username/payment-fraud-detection.git
+1. Clone this repository
+   git clone https://github.com/your-username/payment-fraud-detection.git
 
-# 2. Navigate to the project folder
+ 2. Navigate to the project folder
 cd payment-fraud-detection
 
-# 3. Open Power BI project
-# → Double-click Power_BI_Project.pbix in Power BI Desktop
-# OR open Power BI Desktop → File → Open → Power_BI_Project.pbix
+ 3. Open Power BI project
+  → Double-click Power_BI_Project.pbix in Power BI Desktop
+    OR open Power BI Desktop → File → Open → Power_BI_Project.pbix
 
-# 4. Refresh data source (if needed)
-# → Home → Refresh  (point to Fraud_Detection__Raw_Data.csv)
+ 4. Refresh data source (if needed)
+     → Home → Refresh  (point to Fraud_Detection__Raw_Data.csv)
+
 ```
 
 ### Repository Structure
