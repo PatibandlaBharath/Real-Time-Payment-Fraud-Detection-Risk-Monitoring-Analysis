@@ -10,17 +10,6 @@ Enterprise fraud intelligence dashboard built with Power BI &amp; Microsoft Fabr
 
 ### *Turning transaction noise into fraud intelligence — before damage is done*
 
-<br>
-
-[![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
-[![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](https://fabric.microsoft.com/)
-[![Fluent 2](https://img.shields.io/badge/Theme-Fluent%202-5C2D91?style=for-the-badge&logo=microsoft&logoColor=white)]()
-[![Canvas](https://img.shields.io/badge/Canvas-1920×1080-FF6B6B?style=for-the-badge)]()
-[![Pages](https://img.shields.io/badge/Report%20Pages-3-00C49F?style=for-the-badge)]()
-[![Visuals](https://img.shields.io/badge/Total%20Visuals-80+-orange?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge)]()
-
-<br>
 
 > **"Every fraudulent transaction leaves a fingerprint. This dashboard finds it."**
 
@@ -29,268 +18,448 @@ Enterprise fraud intelligence dashboard built with Power BI &amp; Microsoft Fabr
 
 ---
 
-## 📖 What Is This?
+<div align="center">
 
-This is a **production-grade Power BI intelligence platform** built for financial institutions to detect, monitor, and respond to payment fraud in real time. It's not just a dashboard — it's a **three-layer analytical system** that moves from macro KPIs all the way down to individual risk profiling.
-
-Built on **Microsoft Fabric** with the **Fluent 2 design system**, this report was engineered for:
-
-- 🔴 **Real-time fraud detection** at the transaction level
-- 📍 **Geographic fraud mapping** by location
-- 🏦 **Multi-bank comparison** of fraud exposure
-- 📱 **Device-type forensics** on fraud vectors
-- ⚠️ **Risk category scoring** and segmentation
-- 📅 **Month-over-month trend tracking** with dual-axis analysis
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/CSV-Data-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Records-500-blue?style=for-the-badge" />
 
 ---
-
-## ⚡ Quick Stats at a Glance
-
-| Attribute | Detail |
-|-----------|--------|
-| 📄 **Report Pages** | 3 (Insights · Fraud Analysis · Risk Analysis) |
-| 📊 **Total Visuals** | 80+ across all pages |
-| 🔢 **Unique Chart Types** | 19 distinct visual types |
-| 📏 **Canvas Resolution** | 1920 × 1080 px (Full HD) |
-| 🎨 **Theme** | Microsoft Fluent 2 (CY26SU03) |
-| 🧮 **Measures Tracked** | 10 calculated DAX measures |
-| 📐 **Dimensions** | 13 data dimensions |
-| 🎛️ **Interactive Slicers** | 7 slicers + 2 advanced filter panels |
-| 🔘 **Action Buttons** | 3 page-navigation buttons |
-| 🖼️ **Embedded Icons** | 10 custom fraud-domain icons |
-
----
-
-## 🗺️ Dashboard Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│              POWER BI FRAUD INTELLIGENCE PLATFORM               │
-├─────────────────┬──────────────────────┬────────────────────────┤
-│   PAGE 1        │      PAGE 2          │       PAGE 3           │
-│   📊 Insights   │  🚨 Fraud Analysis   │   ⚠️ Risk Analysis     │
-│                 │                      │                        │
-│  Executive KPIs │  Fraud forensics     │  Risk profiling        │
-│  Volume trends  │  Pattern detection   │  Exposure scoring      │
-│  Geographic map │  Bank comparison     │  High-risk flagging    │
-│  Method funnel  │  Device breakdown    │  Predictive signals    │
-└─────────────────┴──────────────────────┴────────────────────────┘
-         │                  │                       │
-         ▼                  ▼                       ▼
-  [Total Transactions] [Fraud Transactions]  [High Risk Txns]
-  [Total Amount]       [Fraud Amount]        [Fraud Amount %]
-  [Avg Transactions]   [Fraud Rate %]        [Risk Category]
-```
-## Page 1:
-
-<img width="870" height="487" alt="Screenshot 2026-05-01 201255" src="https://github.com/user-attachments/assets/612d1748-b82f-410f-9016-1e41d8c1e7b7" />
-
-## Page 2:
-
-<img width="869" height="486" alt="Screenshot 2026-05-05 110659" src="https://github.com/user-attachments/assets/2f137554-1e22-44ae-9ec1-ac8a26bb059f" />
-
-## Page 3:
-
-<img width="871" height="488" alt="Screenshot 2026-05-05 110556" src="https://github.com/user-attachments/assets/317f4e0f-53d1-4849-851a-5323f5ed9fbb" />
-
-
----
-
-## 📊 Page-by-Page Breakdown
-
-### ━━━ PAGE 1 · 📊 Insights ━━━
-> *Executive command center — the 50,000-foot view of payment fraud*
-
-This is the **first page** users land on, designed for speed-to-insight. It answers: **"What is happening across our entire payment ecosystem right now?"**
-
-**KPI Cards (Top Strip)**
-
-| Card | Measure | Purpose |
-|------|---------|---------|
-| 💳 Total Transactions | `Total Transactions` | Volume baseline |
-| 💰 Fraud Amount | `Fraud Amount` | Total monetary loss |
-| 📈 Avg Transactions | `Avg Transactions` | Normal volume benchmark |
-| 🔴 High Risk Transactions | `High Risk Transactions` | Critical exposure count |
-| 💵 Total Amount | `Total Amount` | Full transaction value |
-
-**Charts & Analysis Panels**
-
-| Visual | Type | Dimensions Used | Insight Generated |
-|--------|------|-----------------|-------------------|
-| Monthly Fraud Volume | Line Chart | Month → Fraud Transactions | Surge detection over time |
-| Monthly Fraud Amount | Line Chart | Month → Fraud Amount | Monetary trend tracking |
-| Transaction Volume Trend | Line Chart | Month → Total Transactions | Baseline vs anomaly |
-| Avg Transactions Trend | Line Chart | Month → Avg Transactions | Moving average signal |
-| High Risk Monthly Trend | Line Chart | Month → High Risk Transactions | Escalation tracking |
-| Payment Method Funnel | **Funnel Chart** | Payment Method → Total Transactions | Channel entry-point analysis |
-| Location Fraud Map | **Map Visual** | Location | Geographic hotspot identification |
-| Transaction Amount by Month | **Treemap** | Month → Transaction Amount | Proportional volume visualization |
-
----
-
-### ━━━ PAGE 2 · 🚨 Fraud Analysis ━━━
-> *Forensic deep-dive — where fraud lives, breathes, and moves*
-
-This page answers: **"Who is committing fraud, through which channels, and on which devices?"**
-
-**KPI Cards**
-
-| Card | Measure |
-|------|---------|
-| 🚨 Fraud Transactions | `Fraud Transactions` |
-| 💸 Fraud Amount | `Fraud Amount` |
-| 📊 Fraud Rate % | `Fraud Rate %` |
-| ⚠️ High Risk Transactions | `High Risk Transactions` |
-
-**Charts & Analysis Panels**
-
-| Visual | Type | Dimensions | Business Question Answered |
-|--------|------|------------|---------------------------|
-| Fraud by Bank | **Horizontal Bar Chart** | Bank Name → Fraud Transactions | Which institution carries highest fraud burden? |
-| Fraud by Device Type | **Pie Chart** | Device Type → Fraud Transactions | Mobile vs desktop vs other attack vectors |
-| Previous Fraud × Transaction Type | **Ribbon Chart** | Previous Fraud Count + Transaction Type → Fraud Transactions | Do repeat offenders use the same transaction types? |
-| Location × Device Type Combo | **Line + Stacked Column Combo** | Location + Device Type → Fraud Amount & Transactions | Multi-dimensional geographic + device analysis |
-| Fraud Amount Trend | Line Chart | Month → Fraud Amount | Monetary loss evolution |
-| Fraud Rate % Trend | Line Chart | Month → Fraud Rate % | Detection rate benchmarking |
-| Fraud Count Trend | Line Chart | Month → Fraud Transactions | Volume of incidents |
-| Total Amount Trend | Line Chart | Month → Total Amount | Full portfolio exposure |
-
-**Slicer Controls (Page 2)**
-
-| Slicer | Field | Use Case |
-|--------|-------|----------|
-| 🏦 Bank Filter | `Bank_Name` | Isolate specific institution |
-| 🌍 International Flag | `Is_International` | Toggle domestic vs cross-border |
-
----
-
-### ━━━ PAGE 3 · ⚠️ Risk Analysis ━━━
-> *Predictive risk layer — flagging tomorrow's fraud today*
-
-This page answers: **"Which transactions and segments carry the highest unresolved risk?"**
-
-**KPI Cards**
-
-| Card | Measure |
-|------|---------|
-| 🔴 High Risk Transactions | `Sum(High Risk Transactions)` |
-| 📊 Avg Transactions | `Avg Transactions` |
-| 💸 Fraud Amount | `Fraud Amount` |
-| 📉 Fraud Amount % | `Fraud Amount %` |
-
-**Charts & Analysis Panels**
-
-| Visual | Type | Dimensions | Risk Insight |
-|--------|------|------------|--------------|
-| Risk Category Table | **Table** | Risk Category | Full risk-level segmentation |
-| Previous Fraud Count Donut | **Donut Chart** | Previous Fraud Count → Risk Category Count | Recidivist profiling |
-| Payment Method × Risk | **Scatter Chart** | Payment Method × Total Amount × Risk Category × Fraud Count | Multi-variable risk mapping |
-| Fraud Txns × Fraud Amount% | **Dual-Axis Line** | Month → Fraud Transactions + Fraud Amount % | Volume-to-value correlation |
-| Fraud Amount% Trend | Line Chart | Month → Fraud Amount % | Proportional loss trajectory |
-| High Risk Trend | Line Chart | Month → Sum(High Risk Transactions) | Risk escalation monitoring |
-| Transaction Type Waterfall | **Waterfall Chart** | Transaction Type → Fraud Transactions (breakdown: High Risk) | Incremental fraud contribution by type |
-
-**Slicer Controls (Page 3)**
-
-| Slicer | Field |
-|--------|-------|
-| 📅 Year | `Year` |
-| 🏦 Bank Name | `Bank_Name` |
-| 🔁 Previous Fraud Count | `Previous_Fraud_Count` |
-| ⚠️ High Risk Transactions (Advanced) | `High Risk Transactions` |
-| 👤 Account Age Months | `Account_Age_Months` |
-
----
-
-## 🧩 Full Data Model
-
-### 📐 Dimensions
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                     FACT TABLE DIMENSIONS                    │
-├─────────────────────┬────────────────────────────────────────┤
-│ Field               │ Description                            │
-├─────────────────────┼────────────────────────────────────────┤
-│ Bank_Name           │ Financial institution name             │
-│ Transaction_Type    │ Wire / ACH / POS / Online / ATM etc.  │
-│ Payment_Method      │ Card / UPI / Net Banking / Wallet      │
-│ Device_Type         │ Mobile / Desktop / Tablet / ATM        │
-│ Location            │ City or region of transaction origin   │
-│ Risk Category       │ Low / Medium / High / Critical         │
-│ Is_International    │ Boolean — cross-border transaction flag │
-│ Previous_Fraud_Count│ Historical fraud events per entity     │
-│ Account_Age_Months  │ Customer account tenure in months      │
-│ Month               │ Calendar month (time dimension)        │
-│ Year                │ Calendar year (time dimension)         │
-└─────────────────────┴────────────────────────────────────────┘
+██████╗  █████╗ ██╗   ██╗███╗   ███╗███████╗███╗   ██╗████████╗
+██╔══██╗██╔══██╗╚██╗ ██╔╝████╗ ████║██╔════╝████╗  ██║╚══██╔══╝
+██████╔╝███████║ ╚████╔╝ ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   
+██╔═══╝ ██╔══██║  ╚██╔╝  ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   
+██║     ██║  ██║   ██║   ██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   
+╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   
 ```
 
-### 📏 Calculated DAX Measures
 
-```dax
--- Core Fraud KPIs
-[Fraud Transactions]    = COUNT of confirmed fraud events
-[Fraud Amount]          = SUM of monetary value of fraudulent transactions
-[Fraud Amount%]         = [Fraud Amount] / [Total Amount]
-[Fraud Rate%]           = [Fraud Transactions] / [Total Transactions]
+> **Detect. Analyze. Prevent.** — A real-time fraud intelligence system built for financial institutions across India, powered by interactive Power BI dashboards and advanced risk scoring.
 
--- Volume Metrics
-[Total Transactions]    = COUNT of all transactions in scope
-[Total Amount]          = SUM of all transaction values
-[Avg Transactions]      = AVERAGE transaction count per period
+<br/>
 
--- Risk Metrics
-[High Risk Transactions] = COUNT of transactions classified HIGH risk
-```
+[![FraudPulse](https://img.shields.io/badge/🔴%20FraudPulse-Live%20Fraud%20Feed-red?style=flat-square)](/)
+[![RiskLens](https://img.shields.io/badge/🟡%20RiskLens-Risk%20Analytics-orange?style=flat-square)](/)
+[![Insights](https://img.shields.io/badge/🔵%20Insights-Executive%20View-blue?style=flat-square)](/)
 
-### Embedded Icon Library
-
-| Icon | File Reference | Semantic Meaning |
-|------|----------------|-----------------|
-| 🚨 | `alaram` | Alert / warning signal |
-| 🛡️ | `anti-corruption` | Anti-fraud protection |
-| 🏷️ | `discount` | Anomalous discount fraud |
-| ⚠️ | `fraud-alert` | Active fraud flag |
-| 🔒 | `lockers` | Account security lock |
-| 💰 | `money-bag` | Total monetary value |
-| ❌ | `no-money` | Loss / write-off event |
-| 💳 | `transaction` | Transaction event marker |
-
----
-
-### Connect Your Data Source
-
-1. Go to **Home → Transform Data → Data Source Settings**
-2. Update connection string to your data warehouse / database
-3. Click **Close & Apply**
-4. Hit **Refresh** to pull live data
-
----
-
-## 🎯 Who Is This For?
-
-| Persona | Primary Pages | Key Questions Answered |
-|---------|--------------|----------------------|
-| 🔍 Fraud Analyst | Page 2 | Which channels and devices are fraud entry points? |
-| 📊 Risk Officer | Page 3 | Which segments are highest risk right now? |
-| 👔 CFO / Executive | Page 1 | What is the total fraud exposure this month? |
-| 🏛️ Compliance Officer | Pages 1 & 2 | What is our fraud rate vs regulatory benchmarks? |
-| 🤖 Data Scientist | Page 3 | How does model risk scoring map to actual fraud? |
-| 🏦 Bank Operations | All pages | How does our bank compare to peers? |
+</div>
 
 ---
 
 
-## 📄 License
+## 🎯 Project Overview
+
+This project is a **three-page interactive Power BI dashboard** designed to monitor, detect, and analyze payment fraud in real time across major Indian cities and financial institutions. It combines raw transactional data with risk-scoring logic to surface high-risk patterns across banks, payment channels, device types, and geographic regions.
 
 ```
-MIT License — use freely, contribute openly, credit kindly.
-See LICENSE file for full terms.
+┌─────────────────────────────────────────────────────────────────────┐
+│                    SYSTEM ARCHITECTURE                              │
+│                                                                     │
+│  📂 Raw CSV Data  ──►  🔄 Power BI Data Model  ──►  📊 Dashboards   │
+│                                                                     │
+│  500 Transactions        DAX Measures               3 Report Pages  │
+│  12 Attributes           Risk Scoring               Interactive      │
+│  Multi-Year Data         Category Logic             Slicers          │
+└─────────────────────────────────────────────────────────────────────┘
+```
+
+**Dashboards at a glance:**
+- **Insights** — Executive overview: payment method splits, monthly trends, location & device heat
+- **FraudPulse** — Deep fraud breakdown: bank-wise, device-wise, location map, payment method
+- **RiskLens** — Risk category analysis: fraud by risk level, transaction type waterfall, monthly fraud % trends
+
+---
+
+## 📊 KPI Summary — The Numbers That Matter
+
+<div align="center">
+
+| KPI | Value | Indicator |
+|-----|-------|-----------|
+| 💰 **Total Transactions** | `500` | All records across 2022–2025 |
+| 🚨 **Fraud Transactions** | `50` | Confirmed fraudulent cases |
+| 📉 **Fraud Rate** | `10.00%` | 1 in every 10 transactions |
+| 💵 **Total Transaction Volume** | `₹1.27 Crore` | Aggregate amount |
+| 🔴 **Fraud Amount** | `₹1,27,070` | Sum of fraudulent transaction values |
+| 📊 **Fraud Amount %** | `0.10%` | Fraud value as % of total volume |
+| ⚡ **High Risk Transactions** | `440` | Risk Score > 0.7 OR Previous Fraud Flag |
+| 📈 **Avg Transaction Value** | `₹2,540` | Per-transaction mean amount |
+
+</div>
+
+> 🔍 **Key Insight:** While fraud accounts for only 10% of transactions by count, the concentration in high-risk accounts and repeat offenders suggests targeted intervention can significantly reduce exposure.
+
+---
+
+## 🗺️ Location-Wise Fraud Analysis
+
+Fraud is mapped across **5 major Indian cities**, revealing geographic clusters of risk.
+
+```
+📍 CITY-WISE FRAUD DISTRIBUTION (out of 50 total fraud cases)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mumbai      ████████████████████████████  14 frauds  (28.0%)
+  Bangalore   ██████████████████████        11 frauds  (22.0%)
+  Delhi       ████████████████████          10 frauds  (20.0%)
+  Hyderabad   ██████████████████             9 frauds  (18.0%)
+  Chennai     ████████████                   6 frauds  (12.0%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+| City | Total Transactions | Fraud Cases | Fraud Rate |
+|------|--------------------|-------------|------------|
+| 🟥 Mumbai | 113 | 14 | **12.39%** |
+| 🟧 Bangalore | 110 | 11 | **10.00%** |
+| 🟨 Delhi | 84 | 10 | **11.90%** |
+| 🟩 Hyderabad | 95 | 9 | **9.47%** |
+| 🟦 Chennai | 98 | 6 | **6.12%** |
+
+> ⚠️ **Mumbai & Delhi** show the highest fraud rates — these cities require enhanced real-time monitoring and stricter authentication rules.
+
+---
+
+## 🏦 Bank-Wise Fraud Breakdown
+
+Analysis of fraud distribution across **5 major Indian banks**, helping identify institutional vulnerabilities.
+
+```
+🏦 BANK FRAUD LEADERBOARD (fraud transactions)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔴 HDFC Bank       ██████████████  14 cases  (28%)
+  🟠 SBI             ██████████      10 cases  (20%)
+  🟡 Kotak Mahindra  █████████        9 cases  (18%)
+  🟢 Axis Bank       █████████        9 cases  (18%)
+  🔵 ICICI Bank      ████████         8 cases  (16%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+| Bank | Total Transactions | Fraud Cases | Fraud Rate |
+|------|--------------------|-------------|------------|
+| 🔴 HDFC Bank | 110 | 14 | **12.73%** |
+| 🔵 ICICI Bank | 80 | 8 | **10.00%** |
+| 🟢 Axis Bank | 110 | 9 | **8.18%** |
+| 🟡 Kotak Mahindra | 92 | 9 | **9.78%** |
+| 🟠 SBI | 108 | 10 | **9.26%** |
+
+> 💡 **HDFC Bank** leads in absolute fraud volume. Considering its high transaction count, a targeted fraud-prevention protocol is recommended.
+
+---
+
+## 📱 Device Type Analysis
+
+Fraud does not discriminate by device — but patterns help profile attacker behaviour.
+
+```
+📱 FRAUD BY DEVICE TYPE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Mobile   ████████████████████████  21 cases  (42%)
+  Desktop  ████████████████████      17 cases  (34%)
+  Tablet   ████████████              12 cases  (24%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+| Device | Total Transactions | Fraud Cases | Fraud % |
+|--------|--------------------|-------------|---------|
+| 📱 Mobile | 175 | 21 | **12.00%** |
+| 💻 Desktop | 170 | 17 | **10.00%** |
+| 📟 Tablet | 155 | 12 | **7.74%** |
+
+**Cross-location device fraud heatmap (from dashboard):**
+
+| Location | Desktop | Mobile | Tablet |
+|----------|---------|--------|--------|
+| Delhi | High | Medium | Low |
+| Mumbai | High | High | Medium |
+| Bangalore | Medium | High | Low |
+| Chennai | Low | Medium | Low |
+| Hyderabad | Low | High | Very Low |
+
+> 📊 **Mobile devices** account for 42% of all fraud — likely due to SIM swapping, phishing apps, and insecure networks. Consider **device fingerprinting** and **step-up authentication** for mobile sessions.
+
+---
+
+## 💳 Payment Method Intelligence
+
+```
+💳 PAYMENT METHOD — TOTAL vs FRAUD BREAKDOWN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Method       Total Txns   Fraud Cases   Fraud Rate
+  ─────────────────────────────────────────────────
+  UPI          109          8             7.34%   🟢 Lowest
+  Wallet       105          10            9.52%   🟡
+  Debit Card   105          12            11.43%  🔴 Highest
+  Credit Card   97           9             9.28%   🟡
+  Net Banking   84           11            13.10%  🔴 High Risk
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+> 💡 **UPI** is the safest payment method (7.34% fraud rate), while **Net Banking** and **Debit Card** show elevated risk. This aligns with known attack vectors: credential stuffing on Net Banking portals and card skimming for Debit Cards.
+
+---
+
+## ⚠️ High Risk Transactions
+
+Risk is categorized using a composite **Risk Score** and transaction history.
+
+```
+🎯 RISK SCORE DISTRIBUTION (all 500 transactions)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🟢 Low Risk   (Score < 0.40)   ████████████████████  204  (40.8%)
+  🟡 Medium     (0.40 – 0.70)    ████████████████████  145  (29.0%)
+  🔴 High Risk  (Score > 0.70)   ████████████████████  151  (30.2%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ⚡ High Risk Transactions Flagged in Dashboard: 440
+```
+
+**High Risk Fraud by Transaction Type (ATM / POS / Online):**
+
+| Transaction Type | High Risk (0) | High Risk (1) | Net Change |
+|-----------------|---------------|----------------|------------|
+| ATM | 21 | -1 | ⬇ Decrease |
+| POS | 16 | +1 | ⬆ Increase |
+| Online | 13 | -4 | ⬇ Decrease |
+
+> 🛡️ **440 transactions** were flagged as high risk across the dashboard — these are candidates for real-time block/challenge workflows.
+
+---
+
+## 🔁 Previous Fraud Count Analysis
+
+Repeat offenders are a major signal in fraud detection. The **Previous_Fraud_Flag** field identifies customers with a prior fraud history.
+
+```
+🔁 PREVIOUS FRAUD FLAG vs CURRENT FRAUD
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  No Prior Fraud  (Flag = 0)   Total: 423  →  39 became fraud  (9.22%)
+  Prior Fraud     (Flag = 1)   Total:  77  →  11 became fraud  (14.29%)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📌 Customers with prior fraud history are 55% MORE likely to commit fraud again
+```
+
+**Fraud Transactions by Previous Fraud Count & Transaction Type (Dashboard View):**
+
+| Previous Fraud Count | ATM | Online | POS |
+|----------------------|-----|--------|-----|
+| 0 | 2 | 4 | 2 |
+| 1 | 4 | 6 | 2 |
+| 2 | 6 | 5 | 4 |
+| 3 | 2 | 1 | 3 |
+| 4 | 3 | 2 | 2 |
+
+> 🔎 **Count 2 (repeat fraudsters)** shows the highest activity across all transaction types — a critical segment for proactive account suspension or enhanced verification.
+
+---
+
+## 🌍 Domestic vs International Transactions
+
+```
+🌐 INTERNATIONAL TRANSACTION FILTER (Dashboard Slicer)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🇮🇳 Domestic   (Is_International = No)    ──► Baseline fraud rate: 10%
+  ✈️  International (Is_International = Yes) ──► Higher anomaly risk flag
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+The dashboard provides a **live slicer** on the FraudPulse page to isolate international transactions. International transactions present elevated risk due to:
+
+- Cross-border jurisdiction complexity
+- Unfamiliar merchant categories
+- Higher average transaction amounts
+- Time-zone mismatches triggering velocity alerts
+
+> ✈️ Filtering by `Is_International = Yes` allows fraud analysts to instantly scope all cross-border exposure and apply stricter review thresholds.
+
+---
+
+## 🏪 Merchant Category Intelligence
+
+```
+🛒 FRAUD BY MERCHANT CATEGORY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Entertainment   ██████████████  14 cases  (28%)  🔴 Highest
+  Travel          ████████████    11 cases  (22%)  🟠
+  E-commerce      ██████████       9 cases  (18%)  🟡
+  Food            ██████████       9 cases  (18%)  🟡
+  Retail          ██████           7 cases  (14%)  🟢 Lowest
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+| Category | Total | Fraud | Rate |
+|----------|-------|-------|------|
+| 🎬 Entertainment | 104 | 14 | **13.46%** |
+| ✈️ Travel | 100 | 11 | **11.00%** |
+| 🛒 E-commerce | 104 | 9 | **8.65%** |
+| 🍕 Food | 87 | 9 | **10.34%** |
+| 🏪 Retail | 105 | 7 | **6.67%** |
+
+> 🎭 **Entertainment & Travel** are hotspots — typically high-value, impulsive purchases that fraudsters exploit. Card-not-present (CNP) fraud is dominant here.
+
+---
+
+## 📅 Monthly Transaction Trends
+
+The **Sum of Transaction Amount by Month** treemap reveals seasonal fraud patterns.
+
+```
+📅 MONTHLY FRAUD TRANSACTION TREND (Descending Order)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  August      ████████████████████████████  Peak month
+  June        ████████████████████████
+  May         ████████████████████
+  April       ████████████████
+  March       █████████████
+  October     ████████████
+  September   ████████████
+  December    ███████████
+  July        ██████████
+  January     █████████
+  February    ████████
+  November    ██████            Lowest fraud month
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+**Key Observations:**
+- 📈 **Q2 (April–June)** and **mid-year (August)** see fraud spikes — aligning with festive shopping seasons and travel peaks
+- 📉 **November & February** show the lowest fraud activity
+- The **Fraud Amount%** line chart on RiskLens tracks monetary risk alongside transaction count
+
+---
+
+## 🖥️ Dashboard Pages
+
+### Page 1 — 📊 Insights (Executive Overview)
+
+> *The command center for leadership and risk officers*
+
+| Visual | Description |
+|--------|-------------|
+| 🔢 Total Transactions KPI | 500 total, sparkline trend |
+| 💰 Fraud Amount KPI | ₹1,27,070 with declining trend |
+| ⚡ High Risk KPI | 440 flagged transactions |
+| 📈 Avg Transactions KPI | ₹2,540 per transaction |
+| 📊 Total Transactions by Payment Method | Horizontal bar — UPI leads at 177 |
+| 🌊 Fraud Transactions by Prev Fraud Count & Type | Sankey-style stream chart |
+| 🗓️ Sum of Transaction Amount by Month | Treemap with month-level granularity |
+| 🗺️ Location & Device Type Fraud | Combo bar + line chart per city |
+| 🎛️ Slicers | Bank Name, Account Age (Months), High Risk flag |
+
+---
+
+### Page 2 — 🔴 FraudPulse (Live Fraud Intelligence)
+
+> *Real-time fraud analyst workbench*
+
+| Visual | Description |
+|--------|-------------|
+| 🔢 Total Transactions | 500 |
+| 🚨 Fraud Transactions | 50 confirmed |
+| % Fraud Rate | 10.00% |
+| 💵 Total Amount | ₹1.27M |
+| 🗺️ Fraud by Location | Bing Maps pin drop across India |
+| 🏦 Fraud by Bank | Horizontal bar — Kotak leads |
+| 💳 Fraud by Payment Method | Column chart |
+| 📱 Fraud by Device Type | Donut chart — Mobile 44% |
+| 🎛️ Slicers | Bank Name, Transaction Type (ATM/Online/POS), Is_International |
+
+---
+
+### Page 3 — 🟡 RiskLens (Risk Category Deep Dive)
+
+> *Quantitative risk stratification for fraud prevention teams*
+
+| Visual | Description |
+|--------|-------------|
+| ⚡ High Risk Transactions | 440 flagged |
+| 💰 Fraud Amount | ₹1,27,070 |
+| % Fraud Amount | 0.10% |
+| 📈 Avg Transactions | ₹2,540 |
+| 📊 Total Amount & Fraud by Risk Category + Payment | Bubble/scatter visual |
+| 🍩 Fraud Amount by Risk Category (Prev Fraud Count) | Donut — Count 0 leads at 24.6% |
+| 📉 Fraud Transactions by Type & High Risk | Waterfall chart (ATM/POS/Online) |
+| 📅 Fraud Transactions & Fraud Amount% by Month | Dual-axis line chart |
+| 🎛️ Slicers | Risk Category (Low/Medium), Year (2023/2024/2025), Previous Fraud Count |
+
+---
+
+## 📁 Dataset Schema
+
+**File:** `Fraud_Detection__Raw_Data.csv` | **Rows:** 500 | **Columns:** 12
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `Transaction_ID` | String | Unique transaction identifier (T100000–T100499) |
+| `Date` | Date | Transaction date (2022–2025) |
+| `Customer_ID` | String | Unique customer identifier |
+| `Amount` | Float | Transaction amount in INR |
+| `Payment_Method` | Categorical | UPI / Wallet / Debit Card / Credit Card / Net Banking |
+| `Merchant_Category` | Categorical | Retail / Entertainment / E-commerce / Travel / Food |
+| `Location` | Categorical | Mumbai / Bangalore / Delhi / Hyderabad / Chennai |
+| `Device_Type` | Categorical | Mobile / Desktop / Tablet |
+| `Bank_Name` | Categorical | HDFC / SBI / Kotak Mahindra / Axis / ICICI |
+| `Previous_Fraud_Flag` | Binary | 0 = No prior fraud, 1 = Prior fraud history |
+| `Risk_Score` | Float (0–1) | Composite risk score from rule engine |
+| `Fraud_Label` | Binary | **Target variable** — 0 = Legitimate, 1 = Fraud |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+```bash
+✅ Power BI Desktop (latest version recommended)
+✅ Microsoft Excel / Python (for CSV preprocessing)
+✅ Git (for version control)
+```
+
+### Installation & Setup
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/your-username/payment-fraud-detection.git
+
+# 2. Navigate to the project folder
+cd payment-fraud-detection
+
+# 3. Open Power BI project
+# → Double-click Power_BI_Project.pbix in Power BI Desktop
+# OR open Power BI Desktop → File → Open → Power_BI_Project.pbix
+
+# 4. Refresh data source (if needed)
+# → Home → Refresh  (point to Fraud_Detection__Raw_Data.csv)
+```
+
+### Repository Structure
+
+```
+📦 payment-fraud-detection/
+│
+├── 📊 Power_BI_Project.pbix       # Main Power BI dashboard file
+├── 📄 Power_BI_Dashboard.pdf      # Static export of all 3 dashboard pages
+├── 📂 Fraud_Detection__Raw_Data.csv  # Source dataset (500 records, 12 columns)
+└── 📖 README.md                   # This file
 ```
 
 ---
 
 <div align="center">
 
+---
 
+### 🔐 Built for Financial Intelligence. Designed for Action.
+
+*Three dashboards. One mission: Zero Fraud.*
+
+**Insights** `→` **FraudPulse** `→` **RiskLens**
+
+---
+
+![Made with Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data](https://img.shields.io/badge/Dataset-500%20Records-blue?style=for-the-badge)
+![Fraud Rate](https://img.shields.io/badge/Fraud%20Rate-10%25-red?style=for-the-badge)
+![Cities](https://img.shields.io/badge/Cities-5%20Major%20Indian%20Cities-orange?style=for-the-badge)
+
+</div>
